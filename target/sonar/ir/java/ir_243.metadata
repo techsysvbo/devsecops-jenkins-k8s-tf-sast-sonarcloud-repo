@@ -1,0 +1,5 @@
+org.t246osslab.easybuggy.exceptions.CannotUndoExceptionServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+javax.swing.undo.UndoManager#<init>()V
+javax.swing.undo.UndoManager#instance-init#
+==
+undo javax.swing.undo.UndoManager#undo()V

@@ -1,0 +1,14 @@
+org.t246osslab.easybuggy.vulnerabilities.OpenRedirectServlet#doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+==
+getParameter javax.servlet.ServletRequest#getParameter(Ljava/lang/String;)Ljava/lang/String;
+resetAccountLock org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet#resetAccountLock(Ljava/lang/String;)V
+incrementLoginFailedCount org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet#incrementLoginFailedCount(Ljava/lang/String;)V
+setAttribute javax.servlet.http.HttpSession#setAttribute(Ljava/lang/String;Ljava/lang/Object;)V
+getLocale javax.servlet.ServletRequest#getLocale()Ljava/util/Locale;
+isAccountLocked org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet#isAccountLocked(Ljava/lang/String;)Z
+getErrMsg org.t246osslab.easybuggy.core.servlets.AbstractServlet#getErrMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;
+getAttribute javax.servlet.http.HttpSession#getAttribute(Ljava/lang/String;)Ljava/lang/Object;
+sendRedirect javax.servlet.http.HttpServletResponse#sendRedirect(Ljava/lang/String;)V
+authUser org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet#authUser(Ljava/lang/String;Ljava/lang/String;)Z
+getSession javax.servlet.http.HttpServletRequest#getSession(Z)Ljavax/servlet/http/HttpSession;
+removeAttribute javax.servlet.http.HttpSession#removeAttribute(Ljava/lang/String;)V

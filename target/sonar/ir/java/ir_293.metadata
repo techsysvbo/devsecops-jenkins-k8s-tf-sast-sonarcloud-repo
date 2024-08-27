@@ -1,0 +1,3 @@
+org.t246osslab.easybuggy.exceptions.ArithmeticExceptionServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+==
+addIntHeader javax.servlet.http.HttpServletResponse#addIntHeader(Ljava/lang/String;I)V

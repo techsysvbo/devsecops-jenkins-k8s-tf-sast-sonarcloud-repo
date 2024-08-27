@@ -1,0 +1,8 @@
+org.t246osslab.easybuggy.exceptions.UnsupportedOperationExceptionServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+remove java.util.Iterator#remove()V
+iterator java.util.List#iterator()Ljava/util/Iterator;
+hasNext java.util.Iterator#hasNext()Z
+next java.util.Iterator#next()Ljava/lang/Object;

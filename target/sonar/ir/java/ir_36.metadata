@@ -1,0 +1,7 @@
+org.t246osslab.easybuggy.troubles.MemoryLeakServlet3#toDoRemove()V
+java.util.zip.Deflater#instance-init#
+java.util.zip.Deflater#<init>()V
+java.lang.String#getBytes()[B
+==
+setInput java.util.zip.Deflater#setInput([B)V
+deflate java.util.zip.Deflater#deflate([B)I

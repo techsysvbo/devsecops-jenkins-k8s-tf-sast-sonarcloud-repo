@@ -1,0 +1,9 @@
+org.t246osslab.easybuggy.troubles.MemoryLeakServlet#toDoRemove()V
+java.lang.StringBuilder#instance-init#
+java.lang.String#valueOf(I)Ljava/lang/String;
+java.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+java.lang.StringBuilder#<init>()V
+java.lang.StringBuilder#toString()Ljava/lang/String;
+==
+hashCode java.lang.Object#hashCode()I
+put java.util.HashMap#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

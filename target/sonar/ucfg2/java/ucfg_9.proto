@@ -1,0 +1,15 @@
+
+Forg.t246osslab.easybuggy.core.model.User#getSecret()Ljava/lang/String;†
+|/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/core/model/User.java1 1("1*¶
+12 2(€
+~
+2 2(
+%0java.lang.String"__id*T
+
+__unknown_file (8*6*
+(org.t246osslab.easybuggy.core.model.User"
+secret"$
+2 2(
+
+%0java.lang.StringB,*
+(org.t246osslab.easybuggy.core.model.UserH

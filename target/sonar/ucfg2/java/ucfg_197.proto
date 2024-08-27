@@ -1,0 +1,707 @@
+
+çorg.t246osslab.easybuggy.vulnerabilities.CSRFServlet#doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Vì
+à/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/vulnerabilities/CSRFServlet.java0 0("startingBlock*ù
+24@ @(|ÜÉ
+@ @(|
+%28void"sorg.apache.directory.shared.ldap.message.ModifyRequestImpl#setName(Lorg/apache/directory/shared/ldap/name/LdapDN;)V*i
+
+__unknown_file (M
+K
+modifyRequest:org.apache.directory.shared.ldap.message.ModifyRequestImpl*Q
+
+__unknown_file (5
+3
+%26,org.apache.directory.shared.ldap.name.LdapDN27setName(Lorg/apache/directory/shared/ldap/name/LdapDN;)*
+23*È
+25@1 @(Vl
+j
+@1 @(V
+%24java.lang.String"__concat*
+@1 @(7
+uid=*%
+@: @(V
+
+%23java.lang.Stringà
+Ö
+@1 @(z
+%25java.lang.String"__concat*%
+@1 @(V
+
+%24java.lang.String*/
+@Y @(z#!
+,ou=people,dc=t246osslab,dc=orgom
+@* @(03
+%26,org.apache.directory.shared.ldap.name.LdapDN",org.apache.directory.shared.ldap.name.LdapDNË
+Â
+@& @({
+%27"Horg.apache.directory.shared.ldap.name.LdapDN#<init>(Ljava/lang/String;)V*Q
+
+__unknown_file (5
+3
+%26,org.apache.directory.shared.ldap.name.LdapDN*5
+
+__unknown_file (
+
+%25java.lang.String*
+24*Ÿ
+26@: @(V¬ø
+@: @(V
+%23java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForLDAP(Ljava/lang/String;)Ljava/lang/String;*T
+
+__unknown_file (86
+4org.t246osslab.easybuggy.vulnerabilities.CSRFServlet*5
+
+__unknown_file (
+
+%22java.lang.String2!encodeForLDAP(Ljava/lang/String;)*
+25*Ó
+27? ?(K¡
+æ
+? ?(KK
+modifyRequest:org.apache.directory.shared.ldap.message.ModifyRequestImpl"__id*_
+
+__unknown_file (C
+A
+%20:org.apache.directory.shared.ldap.message.ModifyRequestImplìê
+@H @(U
+%22java.lang.String")java.lang.String#trim()Ljava/lang/String;*8
+
+__unknown_file (
+
+useridjava.lang.String2trim()*
+26*Ñ
+28?H ?(Iåâ
+?6 ?(GA
+%20:org.apache.directory.shared.ldap.message.ModifyRequestImpl":org.apache.directory.shared.ldap.message.ModifyRequestImplﬁ
+€
+?2 ?(J
+%21"Eorg.apache.directory.shared.ldap.message.ModifyRequestImpl#<init>(I)V*_
+
+__unknown_file (C
+A
+%20:org.apache.directory.shared.ldap.message.ModifyRequestImpl* 
+
+__unknown_file (2*
+27*Ê
+29> >("{
+y
+>0 >(WC
+%18<org.apache.directory.shared.ldap.entry.ModificationOperation"__id*"
+
+__unknown_file (
+""“œ
+> >(X
+%19void"éorg.apache.directory.shared.ldap.entry.client.ClientModification#setOperation(Lorg/apache/directory/shared/ldap/entry/ModificationOperation;)V*t
+
+__unknown_file (X
+V
+clientModification@org.apache.directory.shared.ldap.entry.client.ClientModification*a
+
+__unknown_file (E
+C
+%18<org.apache.directory.shared.ldap.entry.ModificationOperation2LsetOperation(Lorg/apache/directory/shared/ldap/entry/ModificationOperation;)*
+28*√
+30< <(Q“
+œ
+< <(QV
+clientModification@org.apache.directory.shared.ldap.entry.client.ClientModification"__id*e
+
+__unknown_file (I
+G
+%15@org.apache.directory.shared.ldap.entry.client.ClientModification◊‘
+= =(?
+%17void"áorg.apache.directory.shared.ldap.entry.client.ClientModification#setAttribute(Lorg/apache/directory/shared/ldap/entry/EntryAttribute;)V*t
+
+__unknown_file (X
+V
+clientModification@org.apache.directory.shared.ldap.entry.client.ClientModification*t
+
+__unknown_file (X
+V
+entryAttributeDorg.apache.directory.shared.ldap.entry.client.DefaultClientAttribute2EsetAttribute(Lorg/apache/directory/shared/ldap/entry/EntryAttribute;)*
+29*‘
+31	; ;(É◊
+‘
+	; ;(ÉV
+entryAttributeDorg.apache.directory.shared.ldap.entry.client.DefaultClientAttribute"__id*i
+
+__unknown_file (M
+K
+%13Dorg.apache.directory.shared.ldap.entry.client.DefaultClientAttributeòï
+<< <(NG
+%15@org.apache.directory.shared.ldap.entry.client.ClientModification"@org.apache.directory.shared.ldap.entry.client.ClientModification«
+ƒ
+<8 <(P
+%16"Jorg.apache.directory.shared.ldap.entry.client.ClientModification#<init>()V*e
+
+__unknown_file (I
+G
+%15@org.apache.directory.shared.ldap.entry.client.ClientModification*
+30*ï
+32	;8 ;(Ç†ù
+;< ;(RK
+%13Dorg.apache.directory.shared.ldap.entry.client.DefaultClientAttribute"Dorg.apache.directory.shared.ldap.entry.client.DefaultClientAttribute⁄
+◊
+	;8 ;(Ç
+%14"sorg.apache.directory.shared.ldap.entry.client.DefaultClientAttribute#<init>(Ljava/lang/String;[Ljava/lang/String;)V*i
+
+__unknown_file (M
+K
+%13Dorg.apache.directory.shared.ldap.entry.client.DefaultClientAttribute*,
+
+__unknown_file (
+userPassword*5
+
+__unknown_file (
+
+%12java.lang.String*
+31*’
+10J J(bøº
+J J(b
+%45void"Ωorg.t246osslab.easybuggy.core.servlets.AbstractServlet#responseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)V*T
+
+__unknown_file (86
+4org.t246osslab.easybuggy.vulnerabilities.CSRFServlet*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponse*5
+
+__unknown_file (
+
+%43java.lang.String*5
+
+__unknown_file (
+
+%44java.lang.String2ÖresponseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)*
+0*€
+33	;c ;(Å√¿
+	;c ;(Å
+%12java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForLDAP(Ljava/lang/String;)Ljava/lang/String;*T
+
+__unknown_file (86
+4org.t246osslab.easybuggy.vulnerabilities.CSRFServlet*5
+
+__unknown_file (
+
+%11java.lang.String2!encodeForLDAP(Ljava/lang/String;)*
+32*¬
+11JN J(V´®
+JN J(a
+%44java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder2
+toString()*
+10*≠
+34;S ;(añì
+	;q ;(Ä
+%11java.lang.String")java.lang.String#trim()Ljava/lang/String;*:
+
+__unknown_file (
+
+passwordjava.lang.String2trim()*
+33*£
+12J J( åâ
+J+ J(L
+%43java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*T
+
+__unknown_file (86
+4org.t246osslab.easybuggy.vulnerabilities.CSRFServlet*/
+
+__unknown_file (
+title.csrf.page*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+11*ô
+13I I(Çˇ
+I I(*
+%42java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*'
+
+__unknown_file (	
+</form>2append(Ljava/lang/String;)*
+12*¨
+369N 9(Vyw
+9N 9(_	
+%9int"java.lang.String#length()I*:
+
+__unknown_file (
+
+passwordjava.lang.String2length()ó
+î
+9N 9(d
+%10boolean"	__compare*"
+
+__unknown_file (
+>=*'
+
+__unknown_file (
+	
+%9int* 
+
+__unknown_file (2*
+5
+34*ô
+14H  H(eÅ
+
+H  H(e
+%39java.lang.String"__concat*)
+H  H(;
+<a href=\"/admins/main\">*%
+H> H(e
+
+%38java.lang.Stringl
+j
+H  H(n
+%40java.lang.String"__concat*%
+H  H(e
+
+%39java.lang.String*
+Hh H(n
+</a>êç
+H H(o
+%41java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%40java.lang.String2append(Ljava/lang/String;)*
+13*˘
+379- 9(8ﬂ
+‹
+9- 9(J
+%8boolean"@org.apache.commons.lang.StringUtils#isBlank(Ljava/lang/String;)Z*C
+
+__unknown_file ('"%
+#org.apache.commons.lang.StringUtils*:
+
+__unknown_file (
+
+passwordjava.lang.String*
+36
+5*©
+15H H(íè
+H> H(e
+%38java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*T
+
+__unknown_file (86
+4org.t246osslab.easybuggy.vulnerabilities.CSRFServlet*5
+
+__unknown_file (
+label.goto.admin.page*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+14*—
+387! 7((Ö
+Ç
+7! 7(?
+%4java.lang.Object"__mapGet*,
+
+__unknown_file (
+
+%jsp_context*&
+
+__unknown_file (
+
+useridd
+b
+7 7(@
+useridjava.lang.String"__id*4
+
+__unknown_file (
+
+%4java.lang.Objectéã
+8+ 8(G
+%5java.lang.String"Ojavax.servlet.ServletRequest#getParameter(Ljava/lang/String;)Ljava/lang/String;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest*(
+
+__unknown_file (
+
+password2 getParameter(Ljava/lang/String;)
+Ì
+8 8(H
+%6java.lang.String"Norg.apache.commons.lang.StringUtils#trim(Ljava/lang/String;)Ljava/lang/String;*C
+
+__unknown_file ('"%
+#org.apache.commons.lang.StringUtils*4
+
+__unknown_file (
+
+%5java.lang.Stringf
+d
+8 8(I
+passwordjava.lang.String"__id*4
+
+__unknown_file (
+
+%6java.lang.String›
+⁄
+9 9((
+%7boolean"@org.apache.commons.lang.StringUtils#isBlank(Ljava/lang/String;)Z*C
+
+__unknown_file ('"%
+#org.apache.commons.lang.StringUtils*8
+
+__unknown_file (
+
+useridjava.lang.String*
+37
+5*ö
+16G G(ÉÄ
+G G(+
+%37java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*(
+
+__unknown_file (
+
+<br><br>2append(Ljava/lang/String;)*
+15*ö
+394 4(ıÚ
+4 4(!
+
+%3void"Hjavax.servlet.http.HttpServletResponse#sendRedirect(Ljava/lang/String;)V*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponse*!
+
+__unknown_file (
+/2 sendRedirect(Ljava/lang/String;)"
+5 5(
+""*ß
+17F F(Eêç
+F F(E
+%36java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%35java.lang.String2append(Ljava/lang/String;)*
+16*¶
+18F F(èå
+F  F(D
+%35java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*T
+
+__unknown_file (86
+4org.t246osslab.easybuggy.vulnerabilities.CSRFServlet*2
+
+__unknown_file (
+msg.passwd.changed*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+17*è
+19D D(=u
+s
+D D(=#
+bodyHtmljava.lang.StringBuilder"__id*<
+
+__unknown_file ( 
+
+%32java.lang.StringBuilderÅ˛
+E E()
+%34java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*&
+
+__unknown_file (
+
+<form>2append(Ljava/lang/String;)*
+18*&
+0 "
+Y Y(
+implicit return*Ö
+1W W(Ì
+W W(
+%61void"åorg.t246osslab.easybuggy.vulnerabilities.CSRFServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V*T
+
+__unknown_file (86
+4org.t246osslab.easybuggy.vulnerabilities.CSRFServlet*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponse2VdoGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)*
+0*≤
+2T T(s
+q
+U' U(:
+%56java.lang.String"__concat*
+U' U(1
+
+userid: *(
+U4 U(:
+
+useridjava.lang.String;9
+U U(<
+%57java.lang.String[]"java.lang.String[]∞
+≠
+U U(<
+%58"
+__arraySet*7
+
+__unknown_file (
+
+%57java.lang.String[]*
+
+__unknown_file (2 *5
+
+__unknown_file (
+
+%56java.lang.String˛˚
+T1 U(E
+%59java.lang.String"ãorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getErrMsg(Ljava/lang/String;[Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;*T
+
+__unknown_file (86
+4org.t246osslab.easybuggy.vulnerabilities.CSRFServlet*;
+
+__unknown_file (
+msg.unknown.exception.occur*7
+
+__unknown_file (
+
+%57java.lang.String[]*8
+
+__unknown_file (
+
+localejava.util.Locale2BgetErrMsg(Ljava/lang/String;[Ljava/lang/Object;Ljava/util/Locale;)∑
+¥
+T U(F
+%60void"__mapSet*,
+
+__unknown_file (
+
+%jsp_context*,
+
+__unknown_file (
+errorMessage*5
+
+__unknown_file (
+
+%59java.lang.String*
+1*È
+3R R(öó
+R1 R(]
+%54java.lang.String"xorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getErrMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*T
+
+__unknown_file (86
+4org.t246osslab.easybuggy.vulnerabilities.CSRFServlet*7
+
+__unknown_file (
+msg.passwd.is.too.short*8
+
+__unknown_file (
+
+localejava.util.Locale2/getErrMsg(Ljava/lang/String;Ljava/util/Locale;)∑
+¥
+R R(^
+%55void"__mapSet*,
+
+__unknown_file (
+
+%jsp_context*,
+
+__unknown_file (
+errorMessage*5
+
+__unknown_file (
+
+%54java.lang.String*
+1*ˆ
+startingBlock0 0(J/-
+0 0(
+%jsp_context"java.util.HashMap†
+ù
+/ /(
+%62"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequestm
+k
+0- 0(0,
+req%javax.servlet.http.HttpServletRequest"__annotation*#
+
+__unknown_file (
+
+%62°
+û
+/ /(
+%63"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponsen
+l
+0F 0(I-
+res&javax.servlet.http.HttpServletResponse"__annotation*#
+
+__unknown_file (
+
+%63*
+40*´
+4Q1 Q(9zx
+Q1 Q(B
+
+%52int"java.lang.String#length()I*:
+
+__unknown_file (
+
+passwordjava.lang.String2length()ó
+î
+Q1 Q(F
+%53boolean"	__compare*!
+
+__unknown_file (
+<*(
+
+__unknown_file (
+
+
+%52int* 
+
+__unknown_file (2*
+2
+3*¯
+5Q Q(‡
+›
+Q Q(-
+%51boolean"@org.apache.commons.lang.StringUtils#isBlank(Ljava/lang/String;)Z*C
+
+__unknown_file ('"%
+#org.apache.commons.lang.StringUtils*:
+
+__unknown_file (
+
+passwordjava.lang.String*
+3
+4*ﬁ
+401 1(∫∑
+1 1('
+%0java.util.Locale":javax.servlet.ServletRequest#getLocale()Ljava/util/Locale;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getLocale()d
+b
+1 1((
+localejava.util.Locale"__id*4
+
+__unknown_file (
+
+%0java.util.Locale·ﬁ
+2 2(.$
+%1javax.servlet.http.HttpSession"Rjavax.servlet.http.HttpServletRequest#getSession()Ljavax/servlet/http/HttpSession;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getSession()Å
+
+2 2(/)
+sessionjavax.servlet.http.HttpSession"__id*B
+
+__unknown_file (&
+$
+%1javax.servlet.http.HttpSession∏
+µ
+3 3(
+%2boolean"	__compare*"
+
+__unknown_file (
+==*G
+
+__unknown_file (+
+)
+sessionjavax.servlet.http.HttpSession*"
+
+__unknown_file (
+""*
+38
+39*—
+20D) D(<EC
+D- D(:
+%32java.lang.StringBuilder"java.lang.StringBuildert
+r
+D) D(<
+%33"!java.lang.StringBuilder#<init>()V*<
+
+__unknown_file ( 
+
+%32java.lang.StringBuilder*
+19*±
+21B5 B(Böó
+B B(C
+%31void"vorg.apache.directory.server.core.CoreSession#modify(Lorg/apache/directory/shared/ldap/message/InternalModifyRequest;)V*Q
+
+__unknown_file (5
+3
+%30,org.apache.directory.server.core.CoreSession*i
+
+__unknown_file (M
+K
+modifyRequest:org.apache.directory.shared.ldap.message.ModifyRequestImpl2Hmodify(Lorg/apache/directory/shared/ldap/message/InternalModifyRequest;)*
+20*ó
+22B B(Ä
+˝
+B B(-3
+%30,org.apache.directory.server.core.CoreSession"morg.t246osslab.easybuggy.core.dao.EmbeddedADS#getAdminSession()Lorg/apache/directory/server/core/CoreSession;*M
+
+__unknown_file (1"/
+-org.t246osslab.easybuggy.core.dao.EmbeddedADS*
+21*ﬂ
+23A A(»≈
+A A(A
+%29void"Çorg.apache.directory.shared.ldap.message.ModifyRequestImpl#addModification(Lorg/apache/directory/shared/ldap/entry/Modification;)V*i
+
+__unknown_file (M
+K
+modifyRequest:org.apache.directory.shared.ldap.message.ModifyRequestImpl*t
+
+__unknown_file (X
+V
+clientModification@org.apache.directory.shared.ldap.entry.client.ClientModification2FaddModification(Lorg/apache/directory/shared/ldap/entry/Modification;)*
+22:8
+0 0(1,
+req%javax.servlet.http.HttpServletRequest:9
+02 0(I-
+res&javax.servlet.http.HttpServletResponseB86
+4org.t246osslab.easybuggy.vulnerabilities.CSRFServlet

@@ -1,0 +1,11 @@
+org.t246osslab.easybuggy.core.dao.EmbeddedADS#addUser(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+org.apache.directory.shared.ldap.name.LdapDN#instance-init#
+org.apache.directory.shared.ldap.name.LdapDN#<init>(Ljava/lang/String;)V
+java.lang.String#getBytes()[B
+==
+exists org.apache.directory.server.core.CoreSession#exists(Lorg/apache/directory/shared/ldap/name/LdapDN;)Z
+add org.apache.directory.server.core.CoreSession#add(Lorg/apache/directory/server/core/entry/ServerEntry;)V
+newEntry org.apache.directory.server.core.entry.ServerEntryFactory#newEntry(Lorg/apache/directory/shared/ldap/name/LdapDN;)Lorg/apache/directory/server/core/entry/ServerEntry;
+getAdminSession org.apache.directory.server.core.DirectoryService#getAdminSession()Lorg/apache/directory/server/core/CoreSession;
+add org.apache.directory.shared.ldap.entry.Entry#add(Ljava/lang/String;[[B)V
+add org.apache.directory.shared.ldap.entry.Entry#add(Ljava/lang/String;[Ljava/lang/String;)V

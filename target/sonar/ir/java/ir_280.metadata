@@ -1,0 +1,7 @@
+org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet#getUser(Ljava/lang/String;)Lorg/t246osslab/easybuggy/core/model/User;
+org.t246osslab.easybuggy.core.model.User#<init>()V
+org.t246osslab.easybuggy.core.model.User#instance-init#
+==
+setUserId org.t246osslab.easybuggy.core.model.User#setUserId(Ljava/lang/String;)V
+putIfAbsent java.util.concurrent.ConcurrentHashMap#putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+get java.util.concurrent.ConcurrentHashMap#get(Ljava/lang/Object;)Ljava/lang/Object;

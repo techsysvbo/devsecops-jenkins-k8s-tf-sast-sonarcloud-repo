@@ -1,0 +1,10 @@
+org.t246osslab.easybuggy.exceptions.ConcurrentModificationExceptionServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+java.lang.String#equals(Ljava/lang/Object;)Z
+==
+add java.util.List#add(Ljava/lang/Object;)Z
+remove java.util.List#remove(Ljava/lang/Object;)Z
+iterator java.util.List#iterator()Ljava/util/Iterator;
+hasNext java.util.Iterator#hasNext()Z
+next java.util.Iterator#next()Ljava/lang/Object;

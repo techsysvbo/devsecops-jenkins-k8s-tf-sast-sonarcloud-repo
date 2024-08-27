@@ -1,0 +1,765 @@
+
+org.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet$CustomHandler#upsertUser(Lorg/xml/sax/Attributes;Ljava/util/Locale;)Ljava/lang/String;š
+/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/vulnerabilities/XEEandXXEServlet.java– –("57*8
+46
+§ §(H"&
+
+§ §(H
+
+%7java.lang.String*…
+24
+¸ ¸(Pn
+l
+
+¸ ¸(P!
+resultMessagejava.lang.String"__id*5
+
+__unknown_file (
+
+%25java.lang.String*
+2*À
+47
+§ §(%§¤
+
+§ §(G
+%7java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*g
+
+__unknown_file (KI
+Gorg.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet$CustomHandler*6
+
+__unknown_file (
+msg.user.already.exist*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+46*Á
+25
+¸( ¸(.¨¥
+
+¸( ¸(P
+%25java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*g
+
+__unknown_file (KI
+Gorg.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet$CustomHandler*6
+
+__unknown_file (
+msg.user.already.exist*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+24*¶
+26
+·1 ·(2š
+—
+
+· ·(2
+%24boolean"	__compare*"
+
+__unknown_file (
+!=*(
+
+__unknown_file (
+
+
+%23int* 
+
+__unknown_file (2*
+2
+25*µ
+27
+· ·(œ™
+
+· ·(-
+
+%23int"+java.sql.PreparedStatement#executeUpdate()I*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement2executeUpdate()*
+26*­
+28
+¶ ¶(C”‘
+
+¶ ¶(C
+%22void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement* 
+
+__unknown_file (2*5
+
+__unknown_file (
+
+%21java.lang.String2setString(ILjava/lang/String;)*
+27*
+29
+¶ ¶(÷ô
+
+¶' ¶(B
+%21java.lang.String"Eorg.xml.sax.Attributes#getValue(Ljava/lang/String;)Ljava/lang/String;*B
+
+__unknown_file (&
+$
+
+attributesorg.xml.sax.Attributes*$
+
+__unknown_file (
+mail2getValue(Ljava/lang/String;)*
+28*…
+50
+¤ ¤((f
+d
+
+¤ ¤((
+rsjava.sql.ResultSet"__id*6
+
+__unknown_file (
+
+%5java.sql.ResultSetyw
+
+¥ ¥(
+%6boolean"java.sql.ResultSet#next()Z*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet2next()*
+47
+41
+44
+23*Ó
+51
+¤ ¤(º·
+
+¤ ¤((
+%5java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*@
+
+__unknown_file ($
+"
+stmtjava.sql.PreparedStatement2executeQuery()*
+50*ª
+52
+£ £(=‘Ž
+
+£ £(=
+
+%4void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*@
+
+__unknown_file ($
+"
+stmtjava.sql.PreparedStatement* 
+
+__unknown_file (2*4
+
+__unknown_file (
+
+%3java.lang.String2setString(ILjava/lang/String;)*
+51*­
+30
+µ µ(D”‘
+
+µ µ(D
+%20void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement* 
+
+__unknown_file (2*5
+
+__unknown_file (
+
+%19java.lang.String2setString(ILjava/lang/String;)*
+29*ˆ
+53
+¢ ¢(Px
+v
+
+¢ ¢(P"
+stmtjava.sql.PreparedStatement"__id*>
+
+__unknown_file ("
+ 
+%2java.sql.PreparedStatementõò
+
+£" £(<
+%3java.lang.String"Eorg.xml.sax.Attributes#getValue(Ljava/lang/String;)Ljava/lang/String;*B
+
+__unknown_file (&
+$
+
+attributesorg.xml.sax.Attributes*#
+
+__unknown_file (
+uid2getValue(Ljava/lang/String;)*
+52*‘
+31
+µ µ(øõ
+
+µ' µ(C
+%19java.lang.String"Eorg.xml.sax.Attributes#getValue(Ljava/lang/String;)Ljava/lang/String;*B
+
+__unknown_file (&
+$
+
+attributesorg.xml.sax.Attributes*%
+
+__unknown_file (	
+phone2getValue(Ljava/lang/String;)*
+30*Ã
+54
+¢ ¢(ª§
+
+¢ ¢(P 
+%2java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*9
+
+__unknown_file (
+
+connjava.sql.Connection*@
+
+__unknown_file ($"
+ select * from users where id = ?2$prepareStatement(Ljava/lang/String;)*
+53*¼
+10
+Â( Â(.¤¡
+
+Â( Â(L
+%39java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*g
+
+__unknown_file (KI
+Gorg.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet$CustomHandler*2
+
+__unknown_file (
+msg.user.not.exist*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+9*œ
+32
+´ ´(ƒ€
+
+´ ´(.
+%18void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement* 
+
+__unknown_file (2*$
+
+__unknown_file (
+true2setString(ILjava/lang/String;)*
+31*¶
+55
+Ÿ Ÿ(/j
+h
+
+Ÿ Ÿ(/
+connjava.sql.Connection"__id*7
+
+__unknown_file (
+
+%0java.sql.Connection±®
+
+   ((
+
+%1void"%java.sql.Connection#setAutoCommit(Z)V*9
+
+__unknown_file (
+
+connjava.sql.Connection* 
+
+__unknown_file (22setAutoCommit(Z)*
+54*¶
+11
+Á1 Á(2š
+—
+
+Á Á(2
+%38boolean"	__compare*"
+
+__unknown_file (
+!=*(
+
+__unknown_file (
+
+
+%37int* 
+
+__unknown_file (2*
+2
+10*­
+33
+³ ³(K”‘
+
+³ ³(K
+%17void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement* 
+
+__unknown_file (2*5
+
+__unknown_file (
+
+%16java.lang.String2setString(ILjava/lang/String;)*
+32*ü
+34
+³ ³(ã
+à
+
+³' ³(J
+%16java.lang.String"Lorg.apache.commons.lang.RandomStringUtils#randomNumeric(I)Ljava/lang/String;*I
+
+__unknown_file (-"+
+)org.apache.commons.lang.RandomStringUtils* 
+
+__unknown_file (2
+*
+33*à
+56
+Ÿ Ÿ(Ç
+Ä
+
+Ÿ Ÿ(/
+%0java.sql.Connection"Oorg.t246osslab.easybuggy.core.dao.DBClient#getConnection()Ljava/sql/Connection;*J
+
+__unknown_file (.",
+*org.t246osslab.easybuggy.core.dao.DBClient*
+55*µ
+12
+Á Á(œ™
+
+Á Á(-
+
+%37int"+java.sql.PreparedStatement#executeUpdate()I*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement2executeUpdate()*
+11*­
+35
+² ²(G”‘
+
+² ²(G
+%15void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement* 
+
+__unknown_file (2*5
+
+__unknown_file (
+
+%14java.lang.String2setString(ILjava/lang/String;)*
+34*Û
+57
+˜% ˜()\
+Z
+
+˜ ˜(*"
+stmtjava.sql.PreparedStatement"__id*"
+
+__unknown_file (
+""]
+[
+
+™ ™(+#
+stmt2java.sql.PreparedStatement"__id*"
+
+__unknown_file (
+""R
+P
+
+š š( 
+rsjava.sql.ResultSet"__id*"
+
+__unknown_file (
+""U
+S
+
+› ›(#
+connjava.sql.Connection"__id*"
+
+__unknown_file (
+""[
+Y
+
+œ œ((!
+resultMessagejava.lang.String"__id*"
+
+__unknown_file (
+""*
+56*­
+13
+À À(B”‘
+
+À À(B
+%36void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement* 
+
+__unknown_file (2*5
+
+__unknown_file (
+
+%35java.lang.String2setString(ILjava/lang/String;)*
+12*”
+36
+² ²(ûø
+
+²' ²(F
+%14java.lang.String"Eorg.xml.sax.Attributes#getValue(Ljava/lang/String;)Ljava/lang/String;*B
+
+__unknown_file (&
+$
+
+attributesorg.xml.sax.Attributes*(
+
+__unknown_file (
+
+password2getValue(Ljava/lang/String;)*
+35*
+14
+À À(öó
+
+À' À(A
+%35java.lang.String"Eorg.xml.sax.Attributes#getValue(Ljava/lang/String;)Ljava/lang/String;*B
+
+__unknown_file (&
+$
+
+attributesorg.xml.sax.Attributes*#
+
+__unknown_file (
+uid2getValue(Ljava/lang/String;)*
+13*­
+37
+± ±(C”‘
+
+± ±(C
+%13void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement* 
+
+__unknown_file (2*5
+
+__unknown_file (
+
+%12java.lang.String2setString(ILjava/lang/String;)*
+36*­
+15
+¿ ¿(C”‘
+
+¿ ¿(C
+%34void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement* 
+
+__unknown_file (2*5
+
+__unknown_file (
+
+%33java.lang.String2setString(ILjava/lang/String;)*
+14*
+38
+± ±(÷ô
+
+±' ±(B
+%12java.lang.String"Eorg.xml.sax.Attributes#getValue(Ljava/lang/String;)Ljava/lang/String;*B
+
+__unknown_file (&
+$
+
+attributesorg.xml.sax.Attributes*$
+
+__unknown_file (
+name2getValue(Ljava/lang/String;)*
+37*
+16
+¿ ¿(÷ô
+
+¿' ¿(B
+%33java.lang.String"Eorg.xml.sax.Attributes#getValue(Ljava/lang/String;)Ljava/lang/String;*B
+
+__unknown_file (&
+$
+
+attributesorg.xml.sax.Attributes*$
+
+__unknown_file (
+mail2getValue(Ljava/lang/String;)*
+15*­
+39
+° °(B”‘
+
+° °(B
+%11void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement* 
+
+__unknown_file (2*5
+
+__unknown_file (
+
+%10java.lang.String2setString(ILjava/lang/String;)*
+38*­
+17
+¾ ¾(D”‘
+
+¾ ¾(D
+%32void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement* 
+
+__unknown_file (2*5
+
+__unknown_file (
+
+%31java.lang.String2setString(ILjava/lang/String;)*
+16*‘
+18
+¾ ¾(øõ
+
+¾' ¾(C
+%31java.lang.String"Eorg.xml.sax.Attributes#getValue(Ljava/lang/String;)Ljava/lang/String;*B
+
+__unknown_file (&
+$
+
+attributesorg.xml.sax.Attributes*%
+
+__unknown_file (	
+phone2getValue(Ljava/lang/String;)*
+17*­
+19
+½ ½(G”‘
+
+½ ½(G
+%30void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement* 
+
+__unknown_file (2*5
+
+__unknown_file (
+
+%29java.lang.String2setString(ILjava/lang/String;)*
+18*(
+0 "!
+
+Ò Ò(	
+implicit return*B
+1
+Ñ Ñ( "1
+
+Ñ Ñ(!#
+!
+resultMessagejava.lang.String*à
+2
+Ì Ì(é
+æ
+
+Ì Ì( 
+%52void"Gorg.t246osslab.easybuggy.core.utils.Closer#close(Ljava/sql/ResultSet;)V*J
+
+__unknown_file (.",
+*org.t246osslab.easybuggy.core.utils.Closer*6
+
+__unknown_file (
+
+rsjava.sql.ResultSetó
+ð
+
+Í Í("
+%53void"Gorg.t246osslab.easybuggy.core.utils.Closer#close(Ljava/sql/Statement;)V*J
+
+__unknown_file (.",
+*org.t246osslab.easybuggy.core.utils.Closer*@
+
+__unknown_file ($
+"
+stmtjava.sql.PreparedStatementô
+ñ
+
+Î Î(#
+%54void"Gorg.t246osslab.easybuggy.core.utils.Closer#close(Ljava/sql/Statement;)V*J
+
+__unknown_file (.",
+*org.t246osslab.easybuggy.core.utils.Closer*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatementí
+ê
+
+Ï Ï("
+%55void"Horg.t246osslab.easybuggy.core.utils.Closer#close(Ljava/sql/Connection;)V*J
+
+__unknown_file (.",
+*org.t246osslab.easybuggy.core.utils.Closer*9
+
+__unknown_file (
+
+connjava.sql.Connection*
+0
+1*„
+9
+Â Â(Ln
+l
+
+Â Â(L!
+resultMessagejava.lang.String"__id*5
+
+__unknown_file (
+
+%39java.lang.String*
+2*Š
+40
+¯ ¯(cy
+w
+
+¯ ¯(c#
+stmt2java.sql.PreparedStatement"__id*>
+
+__unknown_file ("
+ 
+%9java.sql.PreparedStatementöó
+
+°' °(A
+%10java.lang.String"Eorg.xml.sax.Attributes#getValue(Ljava/lang/String;)Ljava/lang/String;*B
+
+__unknown_file (&
+$
+
+attributesorg.xml.sax.Attributes*#
+
+__unknown_file (
+uid2getValue(Ljava/lang/String;)*
+39*Ñ
+41
+¯ ¯( ¸µ
+
+¯ ¯(c 
+%9java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*9
+
+__unknown_file (
+
+connjava.sql.Connection*N
+
+__unknown_file (20
+.insert into users values (?, ?, ?, ?, ?, ?, ?)2$prepareStatement(Ljava/lang/String;)*
+40*”
+20
+½ ½(ûø
+
+½' ½(F
+%29java.lang.String"Eorg.xml.sax.Attributes#getValue(Ljava/lang/String;)Ljava/lang/String;*B
+
+__unknown_file (&
+$
+
+attributesorg.xml.sax.Attributes*(
+
+__unknown_file (
+
+password2getValue(Ljava/lang/String;)*
+19*8
+43
+« «(D"&
+
+« «(D
+
+%8java.lang.String*­
+21
+¼ ¼(C”‘
+
+¼ ¼(C
+%28void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
+
+__unknown_file (%
+#
+stmt2java.sql.PreparedStatement* 
+
+__unknown_file (2*5
+
+__unknown_file (
+
+%27java.lang.String2setString(ILjava/lang/String;)*
+20*¼
+44
+« «(%£ 
+
+« «(C
+%8java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*g
+
+__unknown_file (KI
+Gorg.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet$CustomHandler*2
+
+__unknown_file (
+msg.user.not.exist*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+43*Œ
+22
+» »(~z
+x
+
+» »(~#
+stmt2java.sql.PreparedStatement"__id*?
+
+__unknown_file (#
+!
+%26java.sql.PreparedStatement÷ô
+
+¼' ¼(B
+%27java.lang.String"Eorg.xml.sax.Attributes#getValue(Ljava/lang/String;)Ljava/lang/String;*B
+
+__unknown_file (&
+$
+
+attributesorg.xml.sax.Attributes*$
+
+__unknown_file (
+name2getValue(Ljava/lang/String;)*
+21*í
+23
+» »( ÔÑ
+
+» »(~!
+%26java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*9
+
+__unknown_file (
+
+connjava.sql.Connection*i
+
+__unknown_file (MK
+Iupdate users set name = ?, password = ?, phone = ?, mail = ? where id = ?2$prepareStatement(Ljava/lang/String;)*
+22:2
+
+– –(0$
+
+attributesorg.xml.sax.Attributes:(
+
+–1 –(>
+localejava.util.LocaleBKI
+Gorg.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet$CustomHandler

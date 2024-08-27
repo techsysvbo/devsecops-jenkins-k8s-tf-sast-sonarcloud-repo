@@ -1,0 +1,7 @@
+organization=vbobuggywebapp
+projectKey=vbobuggywebapp
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.56336
+dashboardUrl=https://sonarcloud.io/dashboard?id=vbobuggywebapp
+ceTaskId=AZGU6LC7gLJvln9T3gHY
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZGU6LC7gLJvln9T3gHY

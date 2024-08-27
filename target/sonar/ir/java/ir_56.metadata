@@ -1,0 +1,7 @@
+org.t246osslab.easybuggy.core.dao.EmbeddedADS#addPartition(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/directory/server/core/partition/Partition;
+org.apache.directory.server.core.partition.impl.btree.jdbm.JdbmPartition#<init>()V
+org.apache.directory.server.core.partition.impl.btree.jdbm.JdbmPartition#instance-init#
+==
+setSuffix org.apache.directory.server.core.partition.Partition#setSuffix(Ljava/lang/String;)V
+addPartition org.apache.directory.server.core.DirectoryService#addPartition(Lorg/apache/directory/server/core/partition/Partition;)V
+setId org.apache.directory.server.core.partition.Partition#setId(Ljava/lang/String;)V

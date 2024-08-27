@@ -1,0 +1,744 @@
+
+ìorg.t246osslab.easybuggy.troubles.FileDescriptorLeakServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Vö
+è/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/troubles/FileDescriptorLeakServlet.java ("startingBlock*≤
+24,$ ,(Yõò
+,$ ,(Y
+%36java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*[
+
+__unknown_file (?=
+;org.t246osslab.easybuggy.troubles.FileDescriptorLeakServlet*:
+
+__unknown_file (
+description.access.history*5
+
+__unknown_file (
+
+%35java.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+23*¡
+25+ +(Im
+k
++ +(I
+brjava.io.BufferedReader"__id*;
+
+__unknown_file (
+
+%33java.io.BufferedReaderª∏
+,I ,(X
+%35java.util.Locale":javax.servlet.ServletRequest#getLocale()Ljava/util/Locale;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getLocale()*
+24*ò
+26+  +(HCA
++$ +(2
+%33java.io.BufferedReader"java.io.BufferedReaderº
+π
++  +(H
+%34"0java.io.BufferedReader#<init>(Ljava/io/Reader;)V*;
+
+__unknown_file (
+
+%33java.io.BufferedReader*7
+
+__unknown_file (
+
+%31java.io.FileReader*
+25*Å
+27) )(;9
++7 +(A
+%31java.io.FileReader"java.io.FileReader≠
+™
++3 +(G
+%32"*java.io.FileReader#<init>(Ljava/io/File;)V*7
+
+__unknown_file (
+
+%31java.io.FileReader*2
+
+__unknown_file (
+
+filejava.io.File*
+26*†
+28( ((âÜ
+( ((
+%30void"#java.io.OutputStreamWriter#flush()V*?
+
+__unknown_file (#
+!
+oswjava.io.OutputStreamWriter2flush()*
+27*ﬁ
+29' '(Dm
+k
+' '(D
+%28java.lang.String"__concat*
+' '(	
+</tr>*%
+'  '(D
+
+%27java.lang.Stringÿ’
+' '(E
+%29void")java.io.Writer#write(Ljava/lang/String;)V*?
+
+__unknown_file (#
+!
+oswjava.io.OutputStreamWriter*5
+
+__unknown_file (
+
+%28java.lang.String2write(Ljava/lang/String;)*
+28*„
+30' '(Ã
+…
+'  '(D
+%27java.lang.String"Bjava.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.System*.
+
+__unknown_file (
+line.separator*
+29*Ã
+31& &(:l
+j
+& &(:
+%24java.lang.String"__concat*
+& &(
+<td>*%
+& &(:
+
+%23java.lang.Stringm
+k
+& &(D
+%25java.lang.String"__concat*%
+& &(:
+
+%24java.lang.String*
+&= &(D	
+</td>ÿ’
+& &(E
+%26void")java.io.Writer#write(Ljava/lang/String;)V*?
+
+__unknown_file (#
+!
+oswjava.io.OutputStreamWriter*5
+
+__unknown_file (
+
+%25java.lang.String2write(Ljava/lang/String;)*
+30*Û
+32& &(‹Ÿ
+& &(:
+%23java.lang.String"Ojavax.servlet.http.HttpServletRequest#getRequestedSessionId()Ljava/lang/String;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getRequestedSessionId()*
+31*Œ
+107 7(∑¥
+7 7(7
+%58java.lang.StringBuilder"Ljava.lang.StringBuilder#insert(ILjava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*"
+
+__unknown_file (
+""*6
+
+__unknown_file (
+
+linejava.lang.String2insert(ILjava/lang/String;)*
+13*Ã
+33% %(2l
+j
+% %(2
+%20java.lang.String"__concat*
+% %(
+<td>*%
+% %(2
+
+%19java.lang.Stringm
+k
+% %(<
+%21java.lang.String"__concat*%
+% %(2
+
+%20java.lang.String*
+%5 %(<	
+</td>ÿ’
+% %(=
+%22void")java.io.Writer#write(Ljava/lang/String;)V*?
+
+__unknown_file (#
+!
+oswjava.io.OutputStreamWriter*5
+
+__unknown_file (
+
+%21java.lang.String2write(Ljava/lang/String;)*
+32*˘
+116 6(B
+@
+6. 6(?
+
+%56int"__id*"
+
+__unknown_file (
+""ö
+ó
+6 6(?
+%57boolean"	__compare*"
+
+__unknown_file (
+<=*"
+
+__unknown_file (
+""*(
+
+__unknown_file (
+
+
+%56int*
+13
+10*⁄
+34% %(√¿
+% %(2
+%19java.lang.String">javax.servlet.ServletRequest#getRemoteAddr()Ljava/lang/String;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getRemoteAddr()*
+33*ì
+125 5((c
+a
+5 5((
+linejava.lang.String"__id*5
+
+__unknown_file (
+
+%54java.lang.Stringî
+ë
+5 5(1
+%55boolean"	__compare*"
+
+__unknown_file (
+!=*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+8
+11*Ã
+35$ $(4l
+j
+$ $(4
+%16java.lang.String"__concat*
+$ $(
+<td>*%
+$ $(4
+
+%15java.lang.Stringm
+k
+$ $(>
+%17java.lang.String"__concat*%
+$ $(4
+
+%16java.lang.String*
+$7 $(>	
+</td>ÿ’
+$ $(?
+%18void")java.io.Writer#write(Ljava/lang/String;)V*?
+
+__unknown_file (#
+!
+oswjava.io.OutputStreamWriter*5
+
+__unknown_file (
+
+%17java.lang.String2write(Ljava/lang/String;)*
+34*∫
+135 5(£†
+5 5((
+%54java.lang.String"3java.io.BufferedReader#readLine()Ljava/lang/String;*:
+
+__unknown_file (
+
+brjava.io.BufferedReader2
+readLine()*
+12*´
+36$ $(4îë
+$ $(4
+%15java.lang.String"+java.util.Date#toString()Ljava/lang/String;*3
+
+__unknown_file (
+
+%13java.util.Date2
+toString()*
+35*f
+142 2(1P
+N
+3 3(
+linejava.lang.String"__id*"
+
+__unknown_file (
+""*
+13*≠
+37$ $(31
+$# $('
+%13java.util.Date"java.util.Dateb
+`
+$ $()
+%14"java.util.Date#<init>()V*3
+
+__unknown_file (
+
+%13java.util.Date*
+36*®
+152 2('ëé
+2 2(0
+
+%53int")java.lang.AbstractStringBuilder#length()I*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder2length()*
+14*÷
+38" "(Av
+t
+" "(A!
+oswjava.io.OutputStreamWriter"__id*?
+
+__unknown_file (#
+!
+%10java.io.OutputStreamWriter«ƒ
+# #(
+%12void")java.io.Writer#write(Ljava/lang/String;)V*?
+
+__unknown_file (#
+!
+oswjava.io.OutputStreamWriter*$
+
+__unknown_file (
+<tr>2write(Ljava/lang/String;)*
+37*Ñ
+161 1(Gl
+j
+1 1(G
+%50java.lang.String"__concat*
+1 1("
+<th>*%
+1% 1(G
+
+%49java.lang.Stringm
+k
+1 1(Q
+%51java.lang.String"__concat*%
+1 1(G
+
+%50java.lang.String*
+1J 1(Q	
+</th>êç
+1 1(R
+%52java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%51java.lang.String2append(Ljava/lang/String;)*
+15*ß
+39! !(Dq
+o
+! !(D
+fosjava.io.FileOutputStream"__id*<
+
+__unknown_file ( 
+
+%8java.io.FileOutputStreamKI
+") "(;!
+%10java.io.OutputStreamWriter"java.io.OutputStreamWriter–
+Õ
+"% "(@
+%11":java.io.OutputStreamWriter#<init>(Ljava/io/OutputStream;)V*?
+
+__unknown_file (#
+!
+%10java.io.OutputStreamWriter*=
+
+__unknown_file (!
+
+fosjava.io.FileOutputStream*
+38*´
+171 1(îë
+1% 1(G
+%49java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*[
+
+__unknown_file (?=
+;org.t246osslab.easybuggy.troubles.FileDescriptorLeakServlet*0
+
+__unknown_file (
+label.session.id*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+16*Ñ
+180 0(Gl
+j
+0 0(G
+%46java.lang.String"__concat*
+0 0("
+<th>*%
+0% 0(G
+
+%45java.lang.Stringm
+k
+0 0(Q
+%47java.lang.String"__concat*%
+0 0(G
+
+%46java.lang.String*
+0J 0(Q	
+</th>êç
+0 0(R
+%48java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%47java.lang.String2append(Ljava/lang/String;)*
+17*´
+190 0(îë
+0% 0(G
+%45java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*[
+
+__unknown_file (?=
+;org.t246osslab.easybuggy.troubles.FileDescriptorLeakServlet*0
+
+__unknown_file (
+label.ip.address*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+18*&
+0 "
+D D(
+implicit return*•
+1A A(ª∏
+AF A(U
+%69java.util.Locale":javax.servlet.ServletRequest#getLocale()Ljava/util/Locale;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getLocale()§°
+A A(V
+%70java.lang.String"yorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getInfoMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*[
+
+__unknown_file (?=
+;org.t246osslab.easybuggy.troubles.FileDescriptorLeakServlet*;
+
+__unknown_file (
+msg.note.filedescriptorleak*5
+
+__unknown_file (
+
+%69java.util.Locale20getInfoMsg(Ljava/lang/String;Ljava/util/Locale;)êç
+A A(W
+%71java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%70java.lang.String2append(Ljava/lang/String;)°û
+B' B(V
+%72java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*[
+
+__unknown_file (?=
+;org.t246osslab.easybuggy.troubles.FileDescriptorLeakServlet*=
+
+__unknown_file (!
+title.filedescriptorleak.page*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)´®
+BX B(k
+%73java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder2
+toString()∆√
+B B(l
+%74void"Ωorg.t246osslab.easybuggy.core.servlets.AbstractServlet#responseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)V*[
+
+__unknown_file (?=
+;org.t246osslab.easybuggy.troubles.FileDescriptorLeakServlet*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponse*5
+
+__unknown_file (
+
+%72java.lang.String*5
+
+__unknown_file (
+
+%73java.lang.String2ÖresponseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)*
+0*≈
+startingBlock (I†
+ù
+ (
+%75"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequestm
+k
+, (/,
+req%javax.servlet.http.HttpServletRequest"__annotation*#
+
+__unknown_file (
+
+%75°
+û
+ (
+%76"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponsen
+l
+E (H-
+res&javax.servlet.http.HttpServletResponse"__annotation*#
+
+__unknown_file (
+
+%76*
+45*ò
+8; ;(ÉÄ
+; ;('
+%59java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*(
+
+__unknown_file (
+
+</table>2append(Ljava/lang/String;)*
+1*ï
+40   (~Z
+X
+   (~
+filejava.io.File"__id*0
+
+__unknown_file (
+
+%6java.io.FileFD
+!' !(7
+%8java.io.FileOutputStream"java.io.FileOutputStream⁄
+◊
+!# !(C
+%9"1java.io.FileOutputStream#<init>(Ljava/io/File;Z)V*<
+
+__unknown_file ( 
+
+%8java.io.FileOutputStream*2
+
+__unknown_file (
+
+filejava.io.File* 
+
+__unknown_file (2*
+39*®
+41 r  (|.,
+   ( 
+%6java.io.File"java.io.File·
+ﬁ
+   (}
+%7":java.io.File#<init>(Ljava/lang/String;Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%6java.io.File*4
+
+__unknown_file (
+
+%5java.lang.String*(
+
+__unknown_file (
+
+test.txt*
+40*≠
+42 !  (qñì
+ !  (q
+%5java.lang.String"-java.lang.Object#toString()Ljava/lang/String;*4
+
+__unknown_file (
+
+%4java.lang.Object2
+toString()*
+41*Ñ
+20/ /(Hl
+j
+/ /(H
+%42java.lang.String"__concat*
+/ /("
+<th>*%
+/% /(H
+
+%41java.lang.Stringm
+k
+/ /(R
+%43java.lang.String"__concat*%
+/ /(H
+
+%42java.lang.String*
+/K /(R	
+</th>êç
+/ /(S
+%44java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%43java.lang.String2append(Ljava/lang/String;)*
+19*≥
+43 F  (eú
+ô
+ !  (f
+%4java.lang.Object"__mapGet*,
+
+__unknown_file (
+
+%jsp_context*=
+
+__unknown_file (!
+javax.servlet.context.tempdir*
+42*¨
+21/ /(ïí
+/% /(H
+%41java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*[
+
+__unknown_file (?=
+;org.t246osslab.easybuggy.troubles.FileDescriptorLeakServlet*1
+
+__unknown_file (
+label.access.time*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+20*˘
+44 !  ($‚ﬂ
+ !  (8"
+%3javax.servlet.ServletContext"Njavax.servlet.ServletRequest#getServletContext()Ljavax/servlet/ServletContext;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getServletContext()*
+43*Ì
+22- -(÷”
+- .(r
+%40java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*{
+
+__unknown_file (_]
+[<table class=\"table table-striped table-bordered table-hover\" style=\"font-size:small;\">2append(Ljava/lang/String;)*
+21*Á
+45 (∫∑
+ ('
+%0java.util.Locale":javax.servlet.ServletRequest#getLocale()Ljava/util/Locale;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getLocale()d
+b
+ ((
+localejava.util.Locale"__id*4
+
+__unknown_file (
+
+%0java.util.LocaleDB
+% (2
+%1java.lang.StringBuilder"java.lang.StringBuilderr
+p
+! (4
+%2"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%1java.lang.StringBuildert
+r
+ (5#
+bodyHtmljava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%1java.lang.StringBuilder*
+44*Ç
+23, ,(Yk
+i
+, ,(Y
+%37java.lang.String"__concat*
+, ,(!
+<p>*%
+,$ ,(Y
+
+%36java.lang.Stringl
+j
+, ,(b
+%38java.lang.String"__concat*%
+, ,(Y
+
+%37java.lang.String*
+,\ ,(b
+</p>êç
+, ,(c
+%39java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%38java.lang.String2append(Ljava/lang/String;)*
+22:8
+ (0,
+req%javax.servlet.http.HttpServletRequest:9
+1 (H-
+res&javax.servlet.http.HttpServletResponseB?=
+;org.t246osslab.easybuggy.troubles.FileDescriptorLeakServlet

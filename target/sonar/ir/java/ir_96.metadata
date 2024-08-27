@@ -1,0 +1,3 @@
+org.t246osslab.easybuggy.core.utils.ApplicationUtils#getProperty(Ljava/util/ResourceBundle;Ljava/lang/String;)Ljava/lang/String;
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+java.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;

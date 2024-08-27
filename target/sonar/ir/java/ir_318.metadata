@@ -1,0 +1,16 @@
+org.t246osslab.easybuggy.performance.CreatingUnnecessaryObjectsServlet#service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.lang.System#nanoTime()J
+java.lang.StringBuilder#instance-init#
+java.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+java.lang.StringBuilder#<init>()V
+org.apache.commons.lang.math.NumberUtils#toInt(Ljava/lang/String;I)I
+org.t246osslab.easybuggy.performance.CreatingUnnecessaryObjectsServlet#calcSum1(I)Ljava/lang/Long;
+java.lang.StringBuilder#append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+java.lang.StringBuilder#toString()Ljava/lang/String;
+==
+getParameter javax.servlet.ServletRequest#getParameter(Ljava/lang/String;)Ljava/lang/String;
+getLocale javax.servlet.ServletRequest#getLocale()Ljava/util/Locale;
+getInfoMsg org.t246osslab.easybuggy.core.servlets.AbstractServlet#getInfoMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;
+responseToClient org.t246osslab.easybuggy.core.servlets.AbstractServlet#responseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)V
+getMsg org.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;
+info org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V

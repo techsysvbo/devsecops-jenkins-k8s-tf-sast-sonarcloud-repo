@@ -1,0 +1,5 @@
+org.t246osslab.easybuggy.troubles.MemoryLeakServlet2#toDoRemove()V
+javassist.ClassPool#getDefault()Ljavassist/ClassPool;
+==
+makeClass javassist.ClassPool#makeClass(Ljava/lang/String;)Ljavassist/CtClass;
+toClass javassist.CtClass#toClass()Ljava/lang/Class;

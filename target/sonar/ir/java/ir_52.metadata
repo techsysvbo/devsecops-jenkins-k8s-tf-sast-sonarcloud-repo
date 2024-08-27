@@ -1,0 +1,7 @@
+org.t246osslab.easybuggy.exceptions.ImagingOpExceptionServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.awt.image.AffineTransformOp#filter(Ljava/awt/image/BufferedImage;Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+java.awt.geom.AffineTransform#getScaleInstance(DD)Ljava/awt/geom/AffineTransform;
+java.awt.image.BufferedImage#instance-init#
+java.awt.image.BufferedImage#<init>(III)V
+java.awt.image.AffineTransformOp#<init>(Ljava/awt/geom/AffineTransform;I)V
+java.awt.image.AffineTransformOp#instance-init#

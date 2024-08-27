@@ -1,0 +1,5 @@
+org.t246osslab.easybuggy.exceptions.IllegalThreadStateExceptionServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.lang.Runtime#getRuntime()Ljava/lang/Runtime;
+==
+exitValue java.lang.Process#exitValue()I
+exec java.lang.Runtime#exec(Ljava/lang/String;)Ljava/lang/Process;

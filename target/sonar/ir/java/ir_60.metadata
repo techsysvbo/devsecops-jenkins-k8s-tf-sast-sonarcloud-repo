@@ -1,0 +1,7 @@
+org.t246osslab.easybuggy.errors.OutOfMemoryErrorServlet4#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.util.Random#instance-init#
+java.lang.System#getProperties()Ljava/util/Properties;
+java.util.Random#<init>()V
+==
+put java.util.Properties#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+nextInt java.util.Random#nextInt()I

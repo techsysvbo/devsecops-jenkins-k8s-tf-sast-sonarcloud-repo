@@ -1,0 +1,51 @@
+
+borg.t246osslab.easybuggy.performance.CreatingUnnecessaryObjectsServlet#calcSum1(I)Ljava/lang/Long;•
+ö/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/performance/CreatingUnnecessaryObjectsServlet.javaG G("5*ÿ
+3J J(e
+c
+J J(
+%1java.lang.Long"__concat*#
+J J(
+
+sumjava.lang.Long*
+J J(
+""]
+[
+J J(
+sumjava.lang.Long"__id*2
+
+__unknown_file (
+
+%1java.lang.Long*
+4*´
+4I I(ì
+ê
+I I($
+%0boolean"	__compare*"
+
+__unknown_file (
+<=*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+3
+1*a
+5H H(M
+K
+H H(
+sumjava.lang.Long"__id*"
+
+__unknown_file (
+""*
+4*2
+1L L("#
+L L(
+
+sumjava.lang.Long: 
+
+__unknown_file (
+""BJH
+Forg.t246osslab.easybuggy.performance.CreatingUnnecessaryObjectsServlet

@@ -1,0 +1,6 @@
+org.t246osslab.easybuggy.performance.StringPlusOperationServlet#appendCheckBox([Ljava/lang/String;Ljava/util/Locale;Ljava/lang/StringBuilder;[Ljava/lang/String;Ljava/lang/String;)V
+java.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+contains java.util.List#contains(Ljava/lang/Object;)Z
+getMsg org.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;

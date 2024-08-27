@@ -1,0 +1,4 @@
+org.t246osslab.easybuggy.core.servlets.ExitServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.lang.System#exit(I)V
+==
+info org.slf4j.Logger#info(Ljava/lang/String;)V

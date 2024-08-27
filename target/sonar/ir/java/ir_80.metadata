@@ -1,0 +1,8 @@
+org.t246osslab.easybuggy.exceptions.IllegalStateExceptionServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.util.ArrayList#instance-init#
+java.util.ArrayList#<init>(Ljava/util/Collection;)V
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+remove java.util.Iterator#remove()V
+iterator java.util.List#iterator()Ljava/util/Iterator;
+hasNext java.util.Iterator#hasNext()Z

@@ -1,0 +1,3 @@
+org.t246osslab.easybuggy.troubles.RedirectLoopServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+==
+sendRedirect javax.servlet.http.HttpServletResponse#sendRedirect(Ljava/lang/String;)V

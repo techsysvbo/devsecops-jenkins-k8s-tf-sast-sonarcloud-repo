@@ -1,0 +1,41 @@
+
+Worg.t246osslab.easybuggy.core.utils.EmailUtils#isValidEmailAddress(Ljava/lang/String;)Zç
+Ç/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/core/utils/EmailUtils.javar r(-"5*Ã
+4u u(Ié
+ã
+u u(I0
+	emailAddr#javax.mail.internet.InternetAddress"__id*G
+
+__unknown_file (+
+)
+%0#javax.mail.internet.InternetAddress¶£
+v v( 
+
+%2void"/javax.mail.internet.InternetAddress#validate()V*N
+
+__unknown_file (2
+0
+	emailAddr#javax.mail.internet.InternetAddress2
+validate()*
+1*œ
+5u< u(G\Z
+u, u(;)
+%0#javax.mail.internet.InternetAddress"#javax.mail.internet.InternetAddress‹
+Ÿ
+u( u(H
+%1"?javax.mail.internet.InternetAddress#<init>(Ljava/lang/String;)V*G
+
+__unknown_file (+
+)
+%0#javax.mail.internet.InternetAddress*=
+
+__unknown_file (!
+
+mailAddressjava.lang.String*
+4*!
+1{ {("
+{ {(
+"":+
+r. r(@
+mailAddressjava.lang.StringB2"0
+.org.t246osslab.easybuggy.core.utils.EmailUtilsHX

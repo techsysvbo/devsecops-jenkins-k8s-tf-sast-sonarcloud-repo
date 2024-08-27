@@ -1,0 +1,68 @@
+
+ñorg.t246osslab.easybuggy.core.dao.EmbeddedADS#addPartition(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/directory/server/core/partition/Partition;å
+Å/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/core/dao/EmbeddedADS.javah h()"1*Ω
+1j j(1ß§
+j" j(/N
+%0Horg.apache.directory.server.core.partition.impl.btree.jdbm.JdbmPartition"Horg.apache.directory.server.core.partition.impl.btree.jdbm.JdbmPartition’
+“
+j j(1
+%1"Rorg.apache.directory.server.core.partition.impl.btree.jdbm.JdbmPartition#<init>()V*l
+
+__unknown_file (P
+N
+%0Horg.apache.directory.server.core.partition.impl.btree.jdbm.JdbmPartitionƒ
+¡
+j j(2A
+	partition4org.apache.directory.server.core.partition.Partition"__id*l
+
+__unknown_file (P
+N
+%0Horg.apache.directory.server.core.partition.impl.btree.jdbm.JdbmPartition•¢
+k k($
+
+%2void"Oorg.apache.directory.server.core.partition.Partition#setId(Ljava/lang/String;)V*_
+
+__unknown_file (C
+A
+	partition4org.apache.directory.server.core.partition.Partition*=
+
+__unknown_file (!
+
+partitionIdjava.lang.String2setId(Ljava/lang/String;)≠™
+l l((
+
+%3void"Sorg.apache.directory.server.core.partition.Partition#setSuffix(Ljava/lang/String;)V*_
+
+__unknown_file (C
+A
+	partition4org.apache.directory.server.core.partition.Partition*=
+
+__unknown_file (!
+
+partitionDnjava.lang.String2setSuffix(Ljava/lang/String;)®
+•
+m m(7
+%41org.apache.directory.server.core.DirectoryService"__id*Z
+
+__unknown_file (>*</
+-org.t246osslab.easybuggy.core.dao.EmbeddedADS"	
+serviceêç
+m m('
+
+%5void"worg.apache.directory.server.core.DirectoryService#addPartition(Lorg/apache/directory/server/core/partition/Partition;)V*U
+
+__unknown_file (9
+7
+%41org.apache.directory.server.core.DirectoryService*_
+
+__unknown_file (C
+A
+	partition4org.apache.directory.server.core.partition.Partition2DaddPartition(Lorg/apache/directory/server/core/partition/Partition;)"O
+n n(C
+A
+	partition4org.apache.directory.server.core.partition.Partition:+
+h* h(=
+partitionIdjava.lang.String:+
+h> h(P
+partitionDnjava.lang.StringB1"/
+-org.t246osslab.easybuggy.core.dao.EmbeddedADS

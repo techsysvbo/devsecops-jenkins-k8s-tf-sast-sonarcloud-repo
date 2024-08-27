@@ -1,0 +1,12 @@
+org.t246osslab.easybuggy.vulnerabilities.BruteForceServlet#doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+==
+getParameter javax.servlet.ServletRequest#getParameter(Ljava/lang/String;)Ljava/lang/String;
+setAttribute javax.servlet.http.HttpSession#setAttribute(Ljava/lang/String;Ljava/lang/Object;)V
+getLocale javax.servlet.ServletRequest#getLocale()Ljava/util/Locale;
+getAttribute javax.servlet.http.HttpSession#getAttribute(Ljava/lang/String;)Ljava/lang/Object;
+getErrMsg org.t246osslab.easybuggy.core.servlets.AbstractServlet#getErrMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;
+authUser org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet#authUser(Ljava/lang/String;Ljava/lang/String;)Z
+sendRedirect javax.servlet.http.HttpServletResponse#sendRedirect(Ljava/lang/String;)V
+getSession javax.servlet.http.HttpServletRequest#getSession(Z)Ljavax/servlet/http/HttpSession;
+removeAttribute javax.servlet.http.HttpSession#removeAttribute(Ljava/lang/String;)V
+doGet org.t246osslab.easybuggy.vulnerabilities.BruteForceServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V

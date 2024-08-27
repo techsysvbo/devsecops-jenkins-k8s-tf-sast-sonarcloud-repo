@@ -1,0 +1,6 @@
+org.t246osslab.easybuggy.core.filters.SecurityFilter#doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V
+java.lang.String#startsWith(Ljava/lang/String;)Z
+==
+doFilter javax.servlet.FilterChain#doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V
+getRequestURI javax.servlet.http.HttpServletRequest#getRequestURI()Ljava/lang/String;
+addHeader javax.servlet.http.HttpServletResponse#addHeader(Ljava/lang/String;Ljava/lang/String;)V

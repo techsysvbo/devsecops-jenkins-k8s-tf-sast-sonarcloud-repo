@@ -1,0 +1,41 @@
+
+Sorg.t246osslab.easybuggy.troubles.JVMCrashByEAVServlet#getUnsafe()Lsun/misc/Unsafe;•
+Š/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/troubles/JVMCrashByEAVServlet.java (#"1*ñ
+1' (3ðí
+' (Q
+%0java.lang.reflect.Field"Mjava.lang.Class#getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;*"
+
+__unknown_file (
+""*)
+
+__unknown_file (
+	theUnsafe2$getDeclaredField(Ljava/lang/String;)ƒ
+€
+ (R1
+singleoneInstanceFieldjava.lang.reflect.Field"__id*;
+
+__unknown_file (
+
+%0java.lang.reflect.FieldÉÆ
+ (2
+
+%1void")java.lang.reflect.Field#setAccessible(Z)V*O
+
+__unknown_file (3
+1
+singleoneInstanceFieldjava.lang.reflect.Field* 
+
+__unknown_file (22setAccessible(Z)öó
+   (8
+%2java.lang.Object"Ajava.lang.reflect.Field#get(Ljava/lang/Object;)Ljava/lang/Object;*O
+
+__unknown_file (3
+1
+singleoneInstanceFieldjava.lang.reflect.Field*"
+
+__unknown_file (
+""2get(Ljava/lang/Object;)"$
+   (9
+
+%2java.lang.ObjectB:"8
+6org.t246osslab.easybuggy.troubles.JVMCrashByEAVServlet

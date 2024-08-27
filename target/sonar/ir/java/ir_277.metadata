@@ -1,0 +1,8 @@
+org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet#incrementLoginFailedCount(Ljava/lang/String;)V
+java.util.Date#<init>()V
+org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet#getUser(Ljava/lang/String;)Lorg/t246osslab/easybuggy/core/model/User;
+java.util.Date#instance-init#
+==
+setLastLoginFailedTime org.t246osslab.easybuggy.core.model.User#setLastLoginFailedTime(Ljava/util/Date;)V
+setLoginFailedCount org.t246osslab.easybuggy.core.model.User#setLoginFailedCount(I)V
+getLoginFailedCount org.t246osslab.easybuggy.core.model.User#getLoginFailedCount()I

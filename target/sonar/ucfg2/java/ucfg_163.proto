@@ -1,0 +1,26 @@
+
+eorg.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet$CustomHandler#getResult()Ljava/lang/String;ö
+ç/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/vulnerabilities/XEEandXXEServlet.javaé é("1*å
+1
+è è(©
+¶
+
+è è(
+%0java.lang.StringBuilder"__id*s
+
+__unknown_file (W*UI
+Gorg.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet$CustomHandler"
+result¶£
+
+è è($
+%1java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*;
+
+__unknown_file (
+
+%0java.lang.StringBuilder2
+toString()"&
+
+è è(%
+
+%1java.lang.StringBKI
+Gorg.t246osslab.easybuggy.vulnerabilities.XEEandXXEServlet$CustomHandler

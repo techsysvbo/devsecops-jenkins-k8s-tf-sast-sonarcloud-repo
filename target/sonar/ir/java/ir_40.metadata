@@ -1,0 +1,5 @@
+org.t246osslab.easybuggy.vulnerabilities.MailHeaderInjectionServlet#deleteUploadFiles(Ljava/util/List;)V
+==
+debug org.slf4j.Logger#debug(Ljava/lang/String;)V
+isEmpty java.util.List#isEmpty()Z
+delete java.io.File#delete()Z

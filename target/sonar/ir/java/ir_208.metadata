@@ -1,0 +1,7 @@
+org.t246osslab.easybuggy.troubles.MemoryLeakServlet#writeUsageRow(Ljava/lang/StringBuilder;Ljava/lang/management/MemoryUsage;Ljava/lang/String;)V
+java.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+==
+getUsed java.lang.management.MemoryUsage#getUsed()J
+getCommitted java.lang.management.MemoryUsage#getCommitted()J
+getMax java.lang.management.MemoryUsage#getMax()J
+getInit java.lang.management.MemoryUsage#getInit()J

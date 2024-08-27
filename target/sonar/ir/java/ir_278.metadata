@@ -1,0 +1,5 @@
+org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet#resetAccountLock(Ljava/lang/String;)V
+org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet#getUser(Ljava/lang/String;)Lorg/t246osslab/easybuggy/core/model/User;
+==
+setLastLoginFailedTime org.t246osslab.easybuggy.core.model.User#setLastLoginFailedTime(Ljava/util/Date;)V
+setLoginFailedCount org.t246osslab.easybuggy.core.model.User#setLoginFailedCount(I)V

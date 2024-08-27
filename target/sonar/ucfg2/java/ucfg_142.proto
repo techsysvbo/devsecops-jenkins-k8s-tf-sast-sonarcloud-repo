@@ -1,0 +1,596 @@
+
+ãorg.t246osslab.easybuggy.troubles.MemoryLeakServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Ví
+á/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/troubles/MemoryLeakServlet.java ("startingBlock*í
+24'$ '(^z
+x
+'$ '(^
+%19java.lang.String"__concat*"
+'$ '(8
+<th width=\"18%\">*%
+'; '(^
+
+%18java.lang.Stringm
+k
+'$ '(h
+%20java.lang.String"__concat*%
+'$ '(^
+
+%19java.lang.String*
+'a '(h	
+</th>êç
+' '(i
+%21java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%20java.lang.String2append(Ljava/lang/String;)*
+23*§
+25' '(çä
+'; '(^
+%18java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*1
+
+__unknown_file (
+label.memory.used*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+24*í
+26&$ &(^z
+x
+&$ &(^
+%15java.lang.String"__concat*"
+&$ &(8
+<th width=\"18%\">*%
+&; &(^
+
+%14java.lang.Stringm
+k
+&$ &(h
+%16java.lang.String"__concat*%
+&$ &(^
+
+%15java.lang.String*
+&a &(h	
+</th>êç
+& &(i
+%17java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%16java.lang.String2append(Ljava/lang/String;)*
+25*§
+27& &(çä
+&; &(^
+%14java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*1
+
+__unknown_file (
+label.memory.init*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+26*ü
+28% %(àÖ
+% %(4
+%13java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*-
+
+__unknown_file (
+<tr><th></th>2append(Ljava/lang/String;)*
+27*Ó
+29$ $(◊‘
+	$ $(Ç
+%12java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*{
+
+__unknown_file (_]
+[<table class=\"table table-striped table-bordered table-hover\" style=\"font-size:small;\">2append(Ljava/lang/String;)*
+28*ˇ
+30#$ #(Fi
+g
+#$ #(F
+%9java.lang.String"__concat*
+#$ #()
+<p>*$
+#, #(F
+
+%8java.lang.Stringk
+i
+#$ #(O
+%10java.lang.String"__concat*$
+#$ #(F
+
+%9java.lang.String*
+#I #(O
+</p>êç
+# #(P
+%11java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%10java.lang.String2append(Ljava/lang/String;)*
+29*„
+31# #(Ã…
+#, #(F
+%8java.lang.String"Ajava.lang.management.MemoryPoolMXBean#getName()Ljava/lang/String;*W
+
+__unknown_file (;
+9
+memoryPoolMXBean%java.lang.management.MemoryPoolMXBean2	getName()*
+30*ô
+10- -(ÉÄ
+- -(/
+%39java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*(
+
+__unknown_file (
+
+</table>2append(Ljava/lang/String;)*
+9*à
+33" "(FÓÎ
+" "(F
+%7boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*C
+
+__unknown_file ('
+%
+%5java.lang.management.MemoryType*C
+
+__unknown_file ('
+%
+%6java.lang.management.MemoryType2equals(Ljava/lang/Object;)*
+9
+31*›
+11	, ,(É≈
+¬
+	, ,(É
+%38void"ëorg.t246osslab.easybuggy.troubles.MemoryLeakServlet#writeUsageRow(Ljava/lang/StringBuilder;Ljava/lang/management/MemoryUsage;Ljava/lang/String;)V*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*E
+
+__unknown_file ()
+'
+%36 java.lang.management.MemoryUsage*5
+
+__unknown_file (
+
+%37java.lang.String*
+10*‡
+34" "(]
+[
+" "(#%
+%5java.lang.management.MemoryType"__id*"
+
+__unknown_file (
+""ÍÁ
+"+ "(E%
+%6java.lang.management.MemoryType"Pjava.lang.management.MemoryPoolMXBean#getType()Ljava/lang/management/MemoryType;*W
+
+__unknown_file (;
+9
+memoryPoolMXBean%java.lang.management.MemoryPoolMXBean2	getType()*
+33*±
+12,S ,(Yöó
+	,S ,(Ç
+%37java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*=
+
+__unknown_file (!
+label.memory.collection.usage*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+11*ö
+13, ,(!ÉÄ
+,, ,(Q'
+%36 java.lang.management.MemoryUsage"\java.lang.management.MemoryPoolMXBean#getCollectionUsage()Ljava/lang/management/MemoryUsage;*W
+
+__unknown_file (;
+9
+memoryPoolMXBean%java.lang.management.MemoryPoolMXBean2getCollectionUsage()*
+12*Ä
+36   (`k
+i
+   (`#
+memoryPoolMXBeansjava.util.List"__id*2
+
+__unknown_file (
+
+%4java.util.List*
+9*€
+14+ +(wƒ
+¡
++ +(w
+%35void"ëorg.t246osslab.easybuggy.troubles.MemoryLeakServlet#writeUsageRow(Ljava/lang/StringBuilder;Ljava/lang/management/MemoryUsage;Ljava/lang/String;)V*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*E
+
+__unknown_file ()
+'
+%33 java.lang.management.MemoryUsage*5
+
+__unknown_file (
+
+%34java.lang.String*
+13*—
+37 7  (H∫
+∑
+ 7  (_
+%4java.util.List"Mjava.lang.management.ManagementFactory#getMemoryPoolMXBeans()Ljava/util/List;*F
+
+__unknown_file (*"(
+&java.lang.management.ManagementFactory*
+36*™
+15+M +(Sìê
++M +(v
+%34java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*7
+
+__unknown_file (
+label.memory.peak.usage*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+14*»
+38 (±
+Æ
+ (
+
+%3void"Aorg.t246osslab.easybuggy.troubles.MemoryLeakServlet#toDoRemove()V*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*
+37*é
+16+ +(!˜Ù
++, +(K'
+%33 java.lang.management.MemoryUsage"Vjava.lang.management.MemoryPoolMXBean#getPeakUsage()Ljava/lang/management/MemoryUsage;*W
+
+__unknown_file (;
+9
+memoryPoolMXBean%java.lang.management.MemoryPoolMXBean2getPeakUsage()*
+15*Á
+39! (4DB
+% (2
+%0java.lang.StringBuilder"java.lang.StringBuilderr
+p
+! (4
+%1"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%0java.lang.StringBuildert
+r
+ (5#
+bodyHtmljava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%0java.lang.StringBuilder∫∑
+ ('
+%2java.util.Locale":javax.servlet.ServletRequest#getLocale()Ljava/util/Locale;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getLocale()d
+b
+ ((
+localejava.util.Locale"__id*4
+
+__unknown_file (
+
+%2java.util.Locale*
+38*€
+17* *(nƒ
+¡
+* *(n
+%32void"ëorg.t246osslab.easybuggy.troubles.MemoryLeakServlet#writeUsageRow(Ljava/lang/StringBuilder;Ljava/lang/management/MemoryUsage;Ljava/lang/String;)V*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*E
+
+__unknown_file ()
+'
+%30 java.lang.management.MemoryUsage*5
+
+__unknown_file (
+
+%31java.lang.String*
+16*•
+18*I *(Oéã
+*I *(m
+%31java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*2
+
+__unknown_file (
+label.memory.usage*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+17*Ü
+19* *(!ÔÏ
+*, *(G'
+%30 java.lang.management.MemoryUsage"Rjava.lang.management.MemoryPoolMXBean#getUsage()Ljava/lang/management/MemoryUsage;*W
+
+__unknown_file (;
+9
+memoryPoolMXBean%java.lang.management.MemoryPoolMXBean2
+getUsage()*
+18*&
+0 "
+8 8(
+implicit return*ï
+
+16 6(ëé
+6' 6(N
+%50java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*5
+
+__unknown_file (
+title.memoryleak.page*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)´®
+6P 6(c
+%51java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder2
+toString()æª
+6 6(d
+%52void"Ωorg.t246osslab.easybuggy.core.servlets.AbstractServlet#responseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)V*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponse*5
+
+__unknown_file (
+
+%50java.lang.String*5
+
+__unknown_file (
+
+%51java.lang.String2ÖresponseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)*
+0*≈
+startingBlock (I†
+ù
+ (
+%53"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequestm
+k
+, (/,
+req%javax.servlet.http.HttpServletRequest"__annotation*#
+
+__unknown_file (
+
+%53°
+û
+ (
+%54"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponsen
+l
+E (H-
+res&javax.servlet.http.HttpServletResponse"__annotation*#
+
+__unknown_file (
+
+%54*
+39*•
+60 0(Oêç
+0 0(O
+%42java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%41java.lang.String2append(Ljava/lang/String;)*
+1*©
+70 0(Nîë
+0 0(N
+%41java.lang.String"yorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getInfoMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*3
+
+__unknown_file (
+msg.note.memoryleak*5
+
+__unknown_file (
+
+%40java.util.Locale20getInfoMsg(Ljava/lang/String;Ljava/util/Locale;)*
+6*–
+80 0(ª∏
+0> 0(M
+%40java.util.Locale":javax.servlet.ServletRequest#getLocale()Ljava/util/Locale;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getLocale()*
+7*«
+9! !(2q
+o
+! !(29
+memoryPoolMXBean%java.lang.management.MemoryPoolMXBean"__id*"
+
+__unknown_file (
+""ª
+∏
+! !(29
+memoryPoolMXBean%java.lang.management.MemoryPoolMXBean"
+__arrayGet*A
+
+__unknown_file (%
+#
+memoryPoolMXBeansjava.util.List*"
+
+__unknown_file (
+""*
+8
+34*ó
+20)$ )(]z
+x
+)$ )(]
+%27java.lang.String"__concat*"
+)$ )(8
+<th width=\"18%\">*%
+); )(]
+
+%26java.lang.Stringr
+p
+)$ )(l
+%28java.lang.String"__concat*%
+)$ )(]
+
+%27java.lang.String*
+)` )(l
+
+</th></tr>êç
+) )(m
+%29java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%28java.lang.String2append(Ljava/lang/String;)*
+19*£
+21) )(åâ
+); )(]
+%26java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*0
+
+__unknown_file (
+label.memory.max*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+20*í
+22($ ((cz
+x
+($ ((c
+%23java.lang.String"__concat*"
+($ ((8
+<th width=\"18%\">*%
+(; ((c
+
+%22java.lang.Stringm
+k
+($ ((m
+%24java.lang.String"__concat*%
+($ ((c
+
+%23java.lang.String*
+(f ((m	
+</th>êç
+( ((n
+%25java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%24java.lang.String2append(Ljava/lang/String;)*
+21*©
+23( ((íè
+(; ((c
+%22java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*S
+
+__unknown_file (75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet*6
+
+__unknown_file (
+label.memory.committed*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+22:8
+ (0,
+req%javax.servlet.http.HttpServletRequest:9
+1 (H-
+res&javax.servlet.http.HttpServletResponseB75
+3org.t246osslab.easybuggy.troubles.MemoryLeakServlet

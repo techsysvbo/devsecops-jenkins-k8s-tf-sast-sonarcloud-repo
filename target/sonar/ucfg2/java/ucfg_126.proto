@@ -1,0 +1,56 @@
+
+gorg.t246osslab.easybuggy.vulnerabilities.UnrestrictedSizeUploadServlet#isImageFile(Ljava/lang/String;)Z¥
+š/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/vulnerabilities/UnrestrictedSizeUploadServlet.javai i("1*’
+1j j(˜
+•
+j j(O
+%0java.util.List"<java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;*0
+
+__unknown_file ("
+java.util.Arrays*#
+
+__unknown_file (
+png*#
+
+__unknown_file (
+gif*#
+
+__unknown_file (
+jpg*$
+
+__unknown_file (
+jpeg*#
+
+__unknown_file (
+tif*$
+
+__unknown_file (
+tiff*#
+
+__unknown_file (
+bmpþ
+û
+k k(4
+%1java.lang.String"Vorg.apache.commons.io.FilenameUtils#getExtension(Ljava/lang/String;)Ljava/lang/String;*C
+
+__unknown_file ('"%
+#org.apache.commons.io.FilenameUtils*:
+
+__unknown_file (
+
+fileNamejava.lang.StringÒÏ
+j k(5
+%2boolean",java.util.List#contains(Ljava/lang/Object;)Z*2
+
+__unknown_file (
+
+%0java.util.List*4
+
+__unknown_file (
+
+%1java.lang.String2contains(Ljava/lang/Object;)"
+j k(6
+"":(
+i  i(/
+fileNamejava.lang.StringBJH
+Forg.t246osslab.easybuggy.vulnerabilities.UnrestrictedSizeUploadServletX

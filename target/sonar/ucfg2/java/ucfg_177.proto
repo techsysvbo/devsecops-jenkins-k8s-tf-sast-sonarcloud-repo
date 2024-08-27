@@ -1,0 +1,214 @@
+
+rorg.t246osslab.easybuggy.vulnerabilities.UnrestrictedExtensionUploadServlet#convert2GrayScale(Ljava/lang/String;)Zª
+Ÿ/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/vulnerabilities/UnrestrictedExtensionUploadServlet.javaj j(%"20*±
+13u u(1—
+”
+u u(1
+%8boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*'
+
+__unknown_file (
+	
+%7int*
+5
+11*¬
+14u u(•’
+u  u(1	
+%7int")java.awt.image.BufferedImage#getHeight()I*C
+
+__unknown_file ('
+%
+imagejava.awt.image.BufferedImage2getHeight()*
+13*"
+16q q("
+q q(
+""*¨
+17p p(¡
+ž
+p p(
+%4org.slf4j.Logger"__id*t
+
+__unknown_file (X*VM
+Korg.t246osslab.easybuggy.vulnerabilities.UnrestrictedExtensionUploadServlet"
+logŸ
+œ
+p p(X
+%5java.lang.String"__concat*B
+p p(M64
+2Cannot read upload file as image file, file name: **
+pP p(X
+
+fileNamejava.lang.StringËÈ
+p p(Y
+
+%6void"*org.slf4j.Logger#warn(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%4org.slf4j.Logger*4
+
+__unknown_file (
+
+%5java.lang.String2warn(Ljava/lang/String;)*
+16*Ì
+18n n(C{
+y
+n n(C%
+imagejava.awt.image.BufferedImage"__id*@
+
+__unknown_file ($
+"
+%2java.awt.image.BufferedImage´
+±
+o o(
+%3boolean"	__compare*"
+
+__unknown_file (
+==*C
+
+__unknown_file ('
+%
+imagejava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*
+14
+17*û
+19n" n(Bä
+á
+n" n(B"
+%2java.awt.image.BufferedImage"Hjavax.imageio.ImageIO#read(Ljava/io/File;)Ljava/awt/image/BufferedImage;*5
+
+__unknown_file ("
+javax.imageio.ImageIO*0
+
+__unknown_file (
+
+%0java.io.File*
+18*%
+1
+ ("
+
+ (
+""*è
+4
+‡ ‡(;Ñ
+Î
+
+‡ ‡(;
+%15boolean"\javax.imageio.ImageIO#write(Ljava/awt/image/RenderedImage;Ljava/lang/String;Ljava/io/File;)Z*5
+
+__unknown_file ("
+javax.imageio.ImageIO*C
+
+__unknown_file ('
+%
+imagejava.awt.image.BufferedImage*#
+
+__unknown_file (
+png*1
+
+__unknown_file (
+
+%13java.io.File*
+1*ù
+5
+‡ ‡(1/
+
+‡, ‡(0
+%13java.io.File"java.io.File¯
+¬
+
+‡( ‡(:
+%14"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%13java.io.File*:
+
+__unknown_file (
+
+fileNamejava.lang.String*
+4*›
+8w w(/…‚
+
+ƒ ƒ()
+%12void")java.awt.image.BufferedImage#setRGB(III)V*C
+
+__unknown_file ('
+%
+imagejava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2setRGB(III)*
+11*ñ
+9w w(!ÜÙ
+w w(.
+
+%11int"(java.awt.image.BufferedImage#getRGB(II)I*C
+
+__unknown_file ('
+%
+imagejava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2
+getRGB(II)*
+8*ò
+20n" n().,
+n3 n(7
+%0java.io.File"java.io.File«
+¨
+n/ n(A
+%1"(java.io.File#<init>(Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%0java.io.File*:
+
+__unknown_file (
+
+fileNamejava.lang.String*
+19*²
+10v  v(4˜
+•
+v  v(4
+%10boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*'
+
+__unknown_file (
+	
+%9int*
+14
+9*ª
+11v  v(!“
+v$ v(4	
+%9int"(java.awt.image.BufferedImage#getWidth()I*C
+
+__unknown_file ('
+%
+imagejava.awt.image.BufferedImage2
+getWidth()*
+10:(
+j& j(5
+fileNamejava.lang.StringBOM
+Korg.t246osslab.easybuggy.vulnerabilities.UnrestrictedExtensionUploadServletX

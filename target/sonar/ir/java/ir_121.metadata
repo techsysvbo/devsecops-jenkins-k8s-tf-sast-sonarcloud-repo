@@ -1,0 +1,4 @@
+org.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;
+org.owasp.esapi.ESAPI#encoder()Lorg/owasp/esapi/Encoder;
+==
+encodeForHTML org.owasp.esapi.Encoder#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;

@@ -1,0 +1,794 @@
+
+Ωorg.t246osslab.easybuggy.core.servlets.AbstractServlet#responseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)Vï
+ä/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/core/servlets/AbstractServlet.java (#"46*‰
+46   (!U
+S
+   ("
+writerjava.io.PrintWriter"__id*"
+
+__unknown_file (
+""·ﬁ
+! !(.$
+%0javax.servlet.http.HttpSession"Rjavax.servlet.http.HttpServletRequest#getSession()Ljavax/servlet/http/HttpSession;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getSession()Å
+
+! !(/)
+sessionjavax.servlet.http.HttpSession"__id*B
+
+__unknown_file (&
+$
+%0javax.servlet.http.HttpSessionÖ
+Ç
+"! "(?
+%1java.lang.Object"__mapGet*,
+
+__unknown_file (
+
+%jsp_context*&
+
+__unknown_file (
+
+useridd
+b
+" "(@
+useridjava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.Object∫∑
+# #('
+%2java.util.Locale":javax.servlet.ServletRequest#getLocale()Ljava/util/Locale;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getLocale()d
+b
+# #((
+localejava.util.Locale"__id*4
+
+__unknown_file (
+
+%2java.util.Locale*
+45*‡
+24O O(…∆
+O O(!
+%44void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*%
+
+__unknown_file (	
+</td>2write(Ljava/lang/String;)*
+23*‡
+25N N(…∆
+N N(!
+%43void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*%
+
+__unknown_file (	
+</h2>2write(Ljava/lang/String;)*
+24*ˆ
+26L L(ﬂ‹
+L L('
+%42void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*;
+
+__unknown_file (
+
+	htmlTitlejava.lang.String2write(Ljava/lang/String;)*
+25*»
+27K K(≠
+™
+K K(!
+%41boolean"	__compare*"
+
+__unknown_file (
+!=*;
+
+__unknown_file (
+
+	htmlTitlejava.lang.String*"
+
+__unknown_file (
+""*
+25
+26*í
+28J J(˚¯
+J J(S
+%40void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*W
+
+__unknown_file (;9
+7<span class=\"glyphicon glyphicon-globe\"></span>&nbsp;2write(Ljava/lang/String;)*
+27*ﬂ
+29I I(»≈
+I I( 
+%39void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*$
+
+__unknown_file (
+<h2>2write(Ljava/lang/String;)*
+28*„
+30H H(Ã…
+H H($
+%38void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*(
+
+__unknown_file (
+
+<tr><td>2write(Ljava/lang/String;)*
+29*¯
+31G G(·ﬁ
+G G(9
+%37void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*=
+
+__unknown_file (!
+<table style=\"width:100%;\">2write(Ljava/lang/String;)*
+30*è
+32F F(¯ı
+F F(P
+%36void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*T
+
+__unknown_file (86
+4<BODY STYLE=\"margin-left:20px;margin-right:20px;\">2write(Ljava/lang/String;)*
+31*’
+10X X(Rv
+t
+X X(R
+%61java.lang.String"__concat*
+X X(-
+<a href=\"/\">*%
+X0 X(R
+
+%60java.lang.Stringl
+j
+X X([
+%62java.lang.String"__concat*%
+X X(R
+
+%61java.lang.String*
+XU X([
+</a>Ÿ÷
+X X(\
+%63void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*5
+
+__unknown_file (
+
+%62java.lang.String2write(Ljava/lang/String;)*
+9*‚
+33E E(À»
+E E(#
+%35void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*'
+
+__unknown_file (	
+</HEAD>2write(Ljava/lang/String;)*
+32*¶
+11X X(èå
+X0 X(R
+%60java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*V
+
+__unknown_file (:8
+6org.t246osslab.easybuggy.core.servlets.AbstractServlet*0
+
+__unknown_file (
+label.go.to.main*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+10*˝
+34@ @(π
+∂
+@ A(s
+%31java.lang.String"__concat*
+@ @(#
+
+<script *m
+A A(sa_
+]src=\"https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML\" ø
+º
+@ B(l
+%32java.lang.String"__concat*%
+@ A(s
+
+%31java.lang.String*f
+B B(lZX
+Vintegrity=\"sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW\" å
+â
+@ C(9
+%33java.lang.String"__concat*%
+@ B(l
+
+%32java.lang.String*3
+C C(9'%
+#crossorigin=\"anonymous\"></script>Ÿ÷
+@ C(:
+%34void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*5
+
+__unknown_file (
+
+%33java.lang.String2write(Ljava/lang/String;)*
+33*Ô
+12W W(ÿ’
+W W(4
+%59void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*4
+
+__unknown_file (
+<td align=\"right\">2write(Ljava/lang/String;)*
+11*Ú
+35< <(Æ
+´
+< =(h
+%27java.lang.String"__concat*
+< <(#
+
+<script *b
+= =(hVT
+Rsrc=\"https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js\" ø
+º
+< >(l
+%28java.lang.String"__concat*%
+< =(h
+
+%27java.lang.String*f
+> >(lZX
+Vintegrity=\"sha384-3+mjTIH6k3li4tycpEniAI83863YpLyJGB/hdI15inFZcAQK3IeMdXSgnoPkTzHn\" å
+â
+< ?(9
+%29java.lang.String"__concat*%
+< >(l
+
+%28java.lang.String*3
+? ?(9'%
+#crossorigin=\"anonymous\"></script>Ÿ÷
+< ?(:
+%30void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*5
+
+__unknown_file (
+
+%29java.lang.String2write(Ljava/lang/String;)*
+34*ﬂ
+13U U(…∆
+U U(%
+%58void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*%
+
+__unknown_file (	
+</td>2write(Ljava/lang/String;)*
+8*Ï
+368 8(®
+•
+8 9(b
+%23java.lang.String"__concat*
+8 8(#
+
+<script *\
+9 9(bPN
+Lsrc=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" ø
+º
+8 :(l
+%24java.lang.String"__concat*%
+8 9(b
+
+%23java.lang.String*f
+: :(lZX
+Vintegrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" å
+â
+8 ;(9
+%25java.lang.String"__concat*%
+8 :(l
+
+%24java.lang.String*3
+; ;(9'%
+#crossorigin=\"anonymous\"></script>Ÿ÷
+8 ;(:
+%26void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*5
+
+__unknown_file (
+
+%25java.lang.String2write(Ljava/lang/String;)*
+35*‹
+14T T(T|
+z
+T T(T
+%55java.lang.String"__concat*$
+T T(3
+<a href=\"/logout\">*%
+T6 T(T
+
+%54java.lang.Stringl
+j
+T T(]
+%56java.lang.String"__concat*%
+T T(T
+
+%55java.lang.String*
+TW T(]
+</a>Ÿ÷
+T T(^
+%57void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*5
+
+__unknown_file (
+
+%56java.lang.String2write(Ljava/lang/String;)*
+13*È
+374 4(•
+¢
+4 5(_
+%19java.lang.String"__concat*
+4 4(#
+
+<script *Y
+5 5(_MK
+Isrc=\"https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js\" ø
+º
+4 6(l
+%20java.lang.String"__concat*%
+4 5(_
+
+%19java.lang.String*f
+6 6(lZX
+Vintegrity=\"sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7\" å
+â
+4 7(9
+%21java.lang.String"__concat*%
+4 6(l
+
+%20java.lang.String*3
+7 7(9'%
+#crossorigin=\"anonymous\"></script>Ÿ÷
+4 7(:
+%22void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*5
+
+__unknown_file (
+
+%21java.lang.String2write(Ljava/lang/String;)*
+36*¢
+15T T(ãà
+T6 T(T
+%54java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*V
+
+__unknown_file (:8
+6org.t246osslab.easybuggy.core.servlets.AbstractServlet*,
+
+__unknown_file (
+label.logout*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+14*˝
+380 0(¬
+ø
+0 1(k
+%15java.lang.String"__concat*)
+0 0(4
+<link rel=\"stylesheet\" *e
+1 1(kYW
+Uhref=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css\" ø
+º
+0 2(l
+%16java.lang.String"__concat*%
+0 1(k
+
+%15java.lang.String*f
+2 2(lZX
+Vintegrity=\"sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp\" É
+Ä
+0 3(0
+%17java.lang.String"__concat*%
+0 2(l
+
+%16java.lang.String**
+3 3(0
+crossorigin=\"anonymous\">Ÿ÷
+0 3(1
+%18void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*5
+
+__unknown_file (
+
+%17java.lang.String2write(Ljava/lang/String;)*
+37*ﬂ
+16S S(»≈
+S S($
+%53void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*$
+
+__unknown_file (
+<br>2write(Ljava/lang/String;)*
+15*˜
+39, ,(º
+π
+, -(e
+%11java.lang.String"__concat*)
+, ,(4
+<link rel=\"stylesheet\" *_
+- -(eSQ
+Ohref=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" ø
+º
+, .(l
+%12java.lang.String"__concat*%
+, -(e
+
+%11java.lang.String*f
+. .(lZX
+Vintegrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" É
+Ä
+, /(0
+%13java.lang.String"__concat*%
+, .(l
+
+%12java.lang.String**
+/ /(0
+crossorigin=\"anonymous\">Ÿ÷
+, /(1
+%14void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*5
+
+__unknown_file (
+
+%13java.lang.String2write(Ljava/lang/String;)*
+38*ﬂ
+17RE R(Ij
+h
+R R(I
+%50java.lang.String"__concat*%
+R R(B
+
+%49java.lang.String*
+RE R(I
+: Ä
+~
+R R(R
+%51java.lang.String"__concat*%
+R R(I
+
+%50java.lang.String*(
+RL R(R
+
+useridjava.lang.StringŸ÷
+R R(S
+%52void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*5
+
+__unknown_file (
+
+%51java.lang.String2write(Ljava/lang/String;)*
+16*©
+18R R(íè
+R R(B
+%49java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*V
+
+__unknown_file (:8
+6org.t246osslab.easybuggy.core.servlets.AbstractServlet*3
+
+__unknown_file (
+label.login.user.id*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+17*Ô
+19Q Q(ÿ’
+Q Q(4
+%48void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*4
+
+__unknown_file (
+<td align=\"right\">2write(Ljava/lang/String;)*
+18*&
+0 "
+g g(
+implicit return*Å
+1e e(Ï
+È
+e e( 
+%73void"Gorg.t246osslab.easybuggy.core.utils.Closer#close([Ljava/io/Closeable;)V*J
+
+__unknown_file (.",
+*org.t246osslab.easybuggy.core.utils.Closer*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*
+0*‡
+3` `(À»
+` `(#
+%70void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*'
+
+__unknown_file (	
+</HTML>2write(Ljava/lang/String;)*
+1*‡
+4_ _(À»
+_ _(#
+%69void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*'
+
+__unknown_file (	
+</BODY>2write(Ljava/lang/String;)*
+3*Û
+5^ ^(ﬁ€
+^ ^("
+%68void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*:
+
+__unknown_file (
+
+htmlBodyjava.lang.String2write(Ljava/lang/String;)*
+4*ˆ
+6] ](·ﬁ
+] ](9
+%67void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*=
+
+__unknown_file (!
+<hr style=\"margin-top:0px\">2write(Ljava/lang/String;)*
+5*·
+7\ \(Ã…
+\ \($
+%66void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*(
+
+__unknown_file (
+
+</table>2write(Ljava/lang/String;)*
+6*ﬁ
+8[ [(…∆
+[ [(!
+%65void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*%
+
+__unknown_file (	
+</tr>2write(Ljava/lang/String;)*
+7*ﬁ
+9Y Y(…∆
+Y Y(%
+%64void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*%
+
+__unknown_file (	
+</td>2write(Ljava/lang/String;)*
+8*≠
+40+ +(ñì
++ +(n
+%10void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*r
+
+__unknown_file (VT
+R<link rel=\"icon\" type=\"image/vnd.microsoft.icon\" href=\"/images/favicon.ico\">2write(Ljava/lang/String;)*
+39*‘
+41) )(t
+r
+) )(2
+%7java.lang.String"__concat*
+) )(&	
+<TITLE>*+
+)) )(2
+
+	htmlTitlejava.lang.Stringn
+l
+) )(?
+%8java.lang.String"__concat*$
+) )(2
+
+%7java.lang.String*
+)5 )(?
+
+</TITLE>◊‘
+) )(@
+
+%9void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*4
+
+__unknown_file (
+
+%8java.lang.String2write(Ljava/lang/String;)*
+40*«
+42( ((¨
+©
+( ((!
+%6boolean"	__compare*"
+
+__unknown_file (
+!=*;
+
+__unknown_file (
+
+	htmlTitlejava.lang.String*"
+
+__unknown_file (
+""*
+40
+41*‡
+43' '(…∆
+' '("
+
+%5void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*&
+
+__unknown_file (
+
+<HEAD>2write(Ljava/lang/String;)*
+42*Í
+21PB P(KœÃ
+P" P(L
+%47boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*5
+
+__unknown_file (
+
+%46java.lang.String*'
+
+__unknown_file (	
+/admins2startsWith(Ljava/lang/String;)*
+19
+12*Ã
+44% %($j
+h
+% %($
+writerjava.io.PrintWriter"__id*7
+
+__unknown_file (
+
+%3java.io.PrintWriter…∆
+& &("
+
+%4void".java.io.PrintWriter#write(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+writerjava.io.PrintWriter*&
+
+__unknown_file (
+
+<HTML>2write(Ljava/lang/String;)*
+43*Â
+22P" P(%ŒÀ
+P" P(6
+%46java.lang.String"Hjavax.servlet.http.HttpServletRequest#getServletPath()Ljava/lang/String;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getServletPath()*
+21*Ÿ
+45% %(¬ø
+% %($
+%3java.io.PrintWriter">javax.servlet.ServletResponse#getWriter()Ljava/io/PrintWriter;*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponse2getWriter()*
+44*≈
+23P P(™
+ß
+P P(
+%45boolean"	__compare*"
+
+__unknown_file (
+!=*8
+
+__unknown_file (
+
+useridjava.lang.String*"
+
+__unknown_file (
+""*
+22
+12:8
+$ (;,
+req%javax.servlet.http.HttpServletRequest:9
+< (T-
+res&javax.servlet.http.HttpServletResponse:)
+U (f
+	htmlTitlejava.lang.String:(
+g (v
+htmlBodyjava.lang.StringB:8
+6org.t246osslab.easybuggy.core.servlets.AbstractServlet

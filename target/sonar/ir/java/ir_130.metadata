@@ -1,0 +1,15 @@
+org.t246osslab.easybuggy.core.filters.AuthenticationFilter#doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V
+java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+java.lang.String#length()I
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#startsWith(Ljava/lang/String;)Z
+==
+getParameter javax.servlet.ServletRequest#getParameter(Ljava/lang/String;)Ljava/lang/String;
+doFilter javax.servlet.FilterChain#doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V
+setAttribute javax.servlet.http.HttpSession#setAttribute(Ljava/lang/String;Ljava/lang/Object;)V
+getAttribute javax.servlet.http.HttpSession#getAttribute(Ljava/lang/String;)Ljava/lang/Object;
+sendRedirect javax.servlet.http.HttpServletResponse#sendRedirect(Ljava/lang/String;)V
+getRequestURI javax.servlet.http.HttpServletRequest#getRequestURI()Ljava/lang/String;
+getSession javax.servlet.http.HttpServletRequest#getSession(Z)Ljavax/servlet/http/HttpSession;
+encodeRedirectURL javax.servlet.http.HttpServletResponse#encodeRedirectURL(Ljava/lang/String;)Ljava/lang/String;
+getQueryString javax.servlet.http.HttpServletRequest#getQueryString()Ljava/lang/String;

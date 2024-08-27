@@ -1,0 +1,3 @@
+org.t246osslab.easybuggy.core.dao.EmbeddedADS#getAdminSession()Lorg/apache/directory/server/core/CoreSession;
+==
+getAdminSession org.apache.directory.server.core.DirectoryService#getAdminSession()Lorg/apache/directory/server/core/CoreSession;

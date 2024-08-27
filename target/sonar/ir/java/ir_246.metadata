@@ -1,0 +1,7 @@
+org.t246osslab.easybuggy.exceptions.SecurityExceptionServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.lang.SecurityManager#instance-init#
+java.lang.RuntimePermission#instance-init#
+java.lang.SecurityManager#<init>()V
+java.lang.RuntimePermission#<init>(Ljava/lang/String;)V
+==
+checkPermission java.lang.SecurityManager#checkPermission(Ljava/security/Permission;Ljava/lang/Object;)V

@@ -1,0 +1,5 @@
+org.t246osslab.easybuggy.vulnerabilities.UnrestrictedSizeUploadServlet#isImageFile(Ljava/lang/String;)Z
+org.apache.commons.io.FilenameUtils#getExtension(Ljava/lang/String;)Ljava/lang/String;
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+contains java.util.List#contains(Ljava/lang/Object;)Z

@@ -1,0 +1,31 @@
+
+jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForLDAP(Ljava/lang/String;)Ljava/lang/String;ó
+ä/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/core/servlets/AbstractServlet.javaº º(""1*È
+1
+Ω Ω(ü
+ú
+
+Ω Ω(
+%0org.owasp.esapi.Encoder"8org.owasp.esapi.ESAPI#encoder()Lorg/owasp/esapi/Encoder;*5
+
+__unknown_file ("
+org.owasp.esapi.ESAPIçä
+
+Ω Ω(3
+%1java.lang.String"Korg.owasp.esapi.Encoder#encodeForLDAP(Ljava/lang/String;)Ljava/lang/String;*;
+
+__unknown_file (
+
+%0org.owasp.esapi.Encoder*7
+
+__unknown_file (
+
+inputjava.lang.String2!encodeForLDAP(Ljava/lang/String;)"&
+
+Ω Ω(4
+
+%1java.lang.String:'
+
+º# º(/
+inputjava.lang.StringB:8
+6org.t246osslab.easybuggy.core.servlets.AbstractServlet

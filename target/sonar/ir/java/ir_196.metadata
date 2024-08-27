@@ -1,0 +1,5 @@
+org.t246osslab.easybuggy.core.servlets.DefaultLogoutServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+==
+sendRedirect javax.servlet.http.HttpServletResponse#sendRedirect(Ljava/lang/String;)V
+getSession javax.servlet.http.HttpServletRequest#getSession(Z)Ljavax/servlet/http/HttpSession;
+invalidate javax.servlet.http.HttpSession#invalidate()V

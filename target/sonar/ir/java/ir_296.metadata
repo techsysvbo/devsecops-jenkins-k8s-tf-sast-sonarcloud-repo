@@ -1,0 +1,4 @@
+org.t246osslab.easybuggy.exceptions.BufferUnderflowExceptionServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.nio.ByteBuffer#wrap([B)Ljava/nio/ByteBuffer;
+==
+getDouble java.nio.ByteBuffer#getDouble()D

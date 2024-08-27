@@ -1,0 +1,15 @@
+
+Dorg.t246osslab.easybuggy.core.model.User#getMail()Ljava/lang/String;†
+|/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/core/model/User.javaA A("1*³
+1B B(~
+|
+B B(
+%0java.lang.String"__id*R
+
+__unknown_file (6*4*
+(org.t246osslab.easybuggy.core.model.User"
+mail"$
+B B(
+
+%0java.lang.StringB,*
+(org.t246osslab.easybuggy.core.model.UserH

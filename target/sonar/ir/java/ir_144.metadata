@@ -1,0 +1,6 @@
+org.t246osslab.easybuggy.exceptions.EmptyStackExceptionServlet#service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.util.Stack#instance-init#
+java.util.Stack#<init>()V
+==
+pop java.util.Stack#pop()Ljava/lang/Object;
+debug org.slf4j.Logger#debug(Ljava/lang/String;)V

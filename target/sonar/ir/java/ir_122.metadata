@@ -1,0 +1,4 @@
+org.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForLDAP(Ljava/lang/String;)Ljava/lang/String;
+org.owasp.esapi.ESAPI#encoder()Lorg/owasp/esapi/Encoder;
+==
+encodeForLDAP org.owasp.esapi.Encoder#encodeForLDAP(Ljava/lang/String;)Ljava/lang/String;

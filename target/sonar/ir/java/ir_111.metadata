@@ -1,0 +1,2 @@
+org.t246osslab.easybuggy.exceptions.MalformedParameterizedTypeExceptionServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl#make(Ljava/lang/Class;[Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Lsun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl;

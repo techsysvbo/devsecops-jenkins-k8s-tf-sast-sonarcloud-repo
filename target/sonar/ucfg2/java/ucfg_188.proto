@@ -1,0 +1,775 @@
+
+íorg.t246osslab.easybuggy.core.servlets.DefaultLoginServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Vô
+é/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/core/servlets/DefaultLoginServlet.java" "("startingBlock*å
+139 9(–Õ
+: :(0
+%36java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Z
+
+__unknown_file (><
+:org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet*=
+
+__unknown_file (!
+
+queryStringjava.lang.String2!encodeForHTML(Ljava/lang/String;)¢
+ü
+9 :(0
+%37java.lang.String"__concat*I
+9 9(W=;
+9<input type=\"hidden\" name=\"loginquerystring\" value=\"*%
+: :(0
+
+%36java.lang.Stringk
+i
+9 :(8
+%38java.lang.String"__concat*%
+9 :(0
+
+%37java.lang.String*
+:3 :(8
+\">êç
+9 :(9
+%39java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%38java.lang.String2append(Ljava/lang/String;)*
+12*ºB
+14$ $(∫∑
+$ $('
+%0java.util.Locale":javax.servlet.ServletRequest#getLocale()Ljava/util/Locale;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getLocale()d
+b
+$ $((
+localejava.util.Locale"__id*4
+
+__unknown_file (
+
+%0java.util.LocaleDB
+%% %(2
+%1java.lang.StringBuilder"java.lang.StringBuilderr
+p
+%! %(4
+%2"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%1java.lang.StringBuildert
+r
+% %(5#
+bodyHtmljava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%1java.lang.StringBuilderöó
+'  '(J
+%3java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Z
+
+__unknown_file (><
+:org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet*8
+
+__unknown_file (
+msg.need.admin.privilege*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)i
+g
+' '(J
+%4java.lang.String"__concat*
+' '(
+<p>*$
+'  '(J
+
+%3java.lang.Stringj
+h
+' '(S
+%5java.lang.String"__concat*$
+' '(J
+
+%4java.lang.String*
+'M '(S
+</p>éã
+' '(T
+%6java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*4
+
+__unknown_file (
+
+%5java.lang.String2append(Ljava/lang/String;)À»
+(< ((O
+%7java.lang.String"Gjavax.servlet.http.HttpServletRequest#getRequestURI()Ljava/lang/String;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getRequestURI()Ü
+É
+( ((O
+%8java.lang.String"__concat*/
+( ((9#!
+<form method=\"POST\" action=\"*$
+(< ((O
+
+%7java.lang.Stringi
+g
+( ((W
+%9java.lang.String"__concat*$
+( ((O
+
+%8java.lang.String*
+(R ((W
+\">èå
+( ((X
+%10java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*4
+
+__unknown_file (
+
+%9java.lang.String2append(Ljava/lang/String;)£†
+) )(C
+%11java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*H
+
+__unknown_file (,*
+(<table width=\"400px\" height=\"150px\">2append(Ljava/lang/String;)ˇ¸
+* *(
+%12java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*$
+
+__unknown_file (
+<tr>2append(Ljava/lang/String;)êç
++! +(@
+%13java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Z
+
+__unknown_file (><
+:org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet*-
+
+__unknown_file (
+label.user.id*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)l
+j
++ +(@
+%14java.lang.String"__concat*
++ +(
+<td>*%
++! +(@
+
+%13java.lang.Stringu
+s
++ +(R
+%15java.lang.String"__concat*%
++ +(@
+
+%14java.lang.String*
++C +(R
+ :&nbsp;</td>êç
++ +(S
+%16java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%15java.lang.String2append(Ljava/lang/String;)µ≤
+, ,(U
+%17java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*Z
+
+__unknown_file (><
+:<td><input type=\"text\" name=\"userid\" size=\"20\"></td>2append(Ljava/lang/String;)Ä˝
+- -( 
+%18java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*%
+
+__unknown_file (	
+</tr>2append(Ljava/lang/String;)ˇ¸
+. .(
+%19java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*$
+
+__unknown_file (
+<tr>2append(Ljava/lang/String;)ëé
+/! /(A
+%20java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Z
+
+__unknown_file (><
+:org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet*.
+
+__unknown_file (
+label.password*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)l
+j
+/ /(A
+%21java.lang.String"__concat*
+/ /(
+<td>*%
+/! /(A
+
+%20java.lang.Stringu
+s
+/ /(S
+%22java.lang.String"__concat*%
+/ /(A
+
+%21java.lang.String*
+/D /(S
+ :&nbsp;</td>êç
+/ /(T
+%23java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%22java.lang.String2append(Ljava/lang/String;)–Õ
+0 0(p
+%24java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*u
+
+__unknown_file (YW
+U<td><input type=\"password\" name=\"password\" size=\"20\" autocomplete=\"off\"></td>2append(Ljava/lang/String;)Ä˝
+1 1( 
+%25java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*%
+
+__unknown_file (	
+</tr>2append(Ljava/lang/String;)ˇ¸
+2 2(
+%26java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*$
+
+__unknown_file (
+<tr>2append(Ljava/lang/String;)ÑÅ
+3 3($
+%27java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*)
+
+__unknown_file (
+	<td></td>2append(Ljava/lang/String;)éã
+4@ 4(]
+%28java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Z
+
+__unknown_file (><
+:org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet*+
+
+__unknown_file (
+label.login*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)å
+â
+4 4(]
+%29java.lang.String"__concat*3
+4 4(='%
+#<td><input type=\"submit\" value=\"*%
+4@ 4(]
+
+%28java.lang.Stringp
+n
+4 4(j
+%30java.lang.String"__concat*%
+4 4(]
+
+%29java.lang.String*
+4` 4(j
+
+\"></td>êç
+4 4(k
+%31java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%30java.lang.String2append(Ljava/lang/String;)Ä˝
+5 5( 
+%32java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*%
+
+__unknown_file (	
+</tr>2append(Ljava/lang/String;)ÉÄ
+6 6(#
+%33java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*(
+
+__unknown_file (
+
+</table>2append(Ljava/lang/String;)ŒÀ
+7 7(1
+%34java.lang.String"Hjavax.servlet.http.HttpServletRequest#getQueryString()Ljava/lang/String;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getQueryString()j
+h
+7 7(2
+queryStringjava.lang.String"__id*5
+
+__unknown_file (
+
+%34java.lang.StringØ
+¨
+8 8(
+%35boolean"	__compare*"
+
+__unknown_file (
+!=*=
+
+__unknown_file (!
+
+queryStringjava.lang.String*"
+
+__unknown_file (
+""*
+13
+12*&
+0 "
+Q Q(
+implicit return*£
+1O O(Çˇ
+O O("
+%62java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*'
+
+__unknown_file (	
+</form>2append(Ljava/lang/String;)ìê
+P# P(E
+%63java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Z
+
+__unknown_file (><
+:org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet*0
+
+__unknown_file (
+title.login.page*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)´®
+PG P(Z
+%64java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder2
+toString()≈¬
+P P([
+%65void"Ωorg.t246osslab.easybuggy.core.servlets.AbstractServlet#responseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)V*Z
+
+__unknown_file (><
+:org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponse*5
+
+__unknown_file (
+
+%63java.lang.String*5
+
+__unknown_file (
+
+%64java.lang.String2ÖresponseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)*
+0*⁄
+2M M(è
+å
+M0 M(S
+%59java.lang.Object"__mapGet*,
+
+__unknown_file (
+
+%jsp_context*/
+
+__unknown_file (
+login.page.note†ù
+M M(\
+%60java.lang.String"yorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getInfoMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*Z
+
+__unknown_file (><
+:org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet*5
+
+__unknown_file (
+
+%59java.lang.Object*8
+
+__unknown_file (
+
+localejava.util.Locale20getInfoMsg(Ljava/lang/String;Ljava/util/Locale;)êç
+M M(]
+%61java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%60java.lang.String2append(Ljava/lang/String;)*
+1*—
+3L L(è
+å
+L L(/
+%57java.lang.Object"__mapGet*,
+
+__unknown_file (
+
+%jsp_context*/
+
+__unknown_file (
+login.page.noteß
+§
+L L(7
+%58boolean"	__compare*"
+
+__unknown_file (
+!=*5
+
+__unknown_file (
+
+%57java.lang.Object*"
+
+__unknown_file (
+""*
+2
+1*ˆ
+startingBlock" "(F/-
+" "(
+%jsp_context"java.util.HashMap†
+ù
+! !(
+%66"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequestm
+k
+") "(,,
+req%javax.servlet.http.HttpServletRequest"__annotation*#
+
+__unknown_file (
+
+%66°
+û
+! !(
+%67"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponsen
+l
+"B "(E-
+res&javax.servlet.http.HttpServletResponse"__annotation*#
+
+__unknown_file (
+
+%67*
+14*Õ
+4I I(ïí
+I I(%
+%55java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*:
+
+__unknown_file (
+
+authNMsgjava.lang.String2append(Ljava/lang/String;)†
+ù
+J J(2
+%56void"__mapSet*,
+
+__unknown_file (
+
+%jsp_context*(
+
+__unknown_file (
+
+authNMsg*"
+
+__unknown_file (
+""*
+3*Í
+5H! H(0“œ
+H! H(A
+%54boolean",java.lang.String#equals(Ljava/lang/Object;)Z*-
+
+__unknown_file (
+authenticated*:
+
+__unknown_file (
+
+authNMsgjava.lang.String2equals(Ljava/lang/Object;)*
+3
+4*«
+6F F(!ÜÉ
+F F(2%
+%51javax.servlet.http.HttpSession"Sjavax.servlet.http.HttpServletRequest#getSession(Z)Ljavax/servlet/http/HttpSession;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest* 
+
+__unknown_file (22getSession(Z)É
+Ä
+F F(3)
+sessionjavax.servlet.http.HttpSession"__id*C
+
+__unknown_file ('
+%
+%51javax.servlet.http.HttpSessionà
+Ö
+G# G(C
+%52java.lang.Object"__mapGet*,
+
+__unknown_file (
+
+%jsp_context*(
+
+__unknown_file (
+
+authNMsgg
+e
+G G(D
+authNMsgjava.lang.String"__id*5
+
+__unknown_file (
+
+%52java.lang.Object¨
+©
+H H(
+%53boolean"	__compare*"
+
+__unknown_file (
+!=*:
+
+__unknown_file (
+
+authNMsgjava.lang.String*"
+
+__unknown_file (
+""*
+3
+5*è
+7@ @("V
+T
+@ @("
+
+paramValuejava.lang.String"__id*"
+
+__unknown_file (
+""û
+õ
+@ @("
+
+paramValuejava.lang.String"
+__arrayGet*?
+
+__unknown_file (#
+!
+paramValuesjava.lang.String[]*"
+
+__unknown_file (
+""*
+8
+11*≥
+8A A(ŒÀ
+AC A([
+%44java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Z
+
+__unknown_file (><
+:org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet*;
+
+__unknown_file (
+
+	paramNamejava.lang.String2!encodeForHTML(Ljava/lang/String;)á
+Ñ
+A  A([
+%45java.lang.String"__concat*.
+A  A(@" 
+<input type=\"hidden\" name=\"*%
+AC A([
+
+%44java.lang.Strings
+q
+A  B('
+%46java.lang.String"__concat*%
+A  A([
+
+%45java.lang.String*
+B B('
+\" value=\"œÃ
+B* B(C
+%47java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForHTML(Ljava/lang/String;)Ljava/lang/String;*Z
+
+__unknown_file (><
+:org.t246osslab.easybuggy.core.servlets.DefaultLoginServlet*<
+
+__unknown_file ( 
+
+
+paramValuejava.lang.String2!encodeForHTML(Ljava/lang/String;)}
+{
+A  B(C
+%48java.lang.String"__concat*%
+A  B('
+
+%46java.lang.String*%
+B* B(C
+
+%47java.lang.Stringk
+i
+A  B(K
+%49java.lang.String"__concat*%
+A  B(C
+
+%48java.lang.String*
+BF B(K
+\">êç
+A B(L
+%50java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%49java.lang.String2append(Ljava/lang/String;)*
+7*≈
+10>( >(2®•
+>( >(@
+%42	!capture!"5java.util.Enumeration#nextElement()Ljava/lang/Object;*A
+
+__unknown_file (%
+#
+
+paramNamesjava.util.Enumeration2nextElement()a
+_
+> >(A
+	paramNamejava.lang.String"__id*.
+
+__unknown_file (
+
+%42	!capture!±Æ
+?# ?(D
+%43java.lang.String[]"Vjavax.servlet.ServletRequest#getParameterValues(Ljava/lang/String;)[Ljava/lang/String;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest*;
+
+__unknown_file (
+
+	paramNamejava.lang.String2&getParameterValues(Ljava/lang/String;)n
+l
+? ?(E!
+paramValuesjava.lang.String[]"__id*7
+
+__unknown_file (
+
+%43java.lang.String[]*
+7*∑
+11= =(ùö
+= =(+
+%41boolean"(java.util.Enumeration#hasMoreElements()Z*A
+
+__unknown_file (%
+#
+
+paramNamesjava.util.Enumeration2hasMoreElements()*
+6
+10*·
+12<$ <('’“
+<$ <(;
+%40java.util.Enumeration"Gjavax.servlet.ServletRequest#getParameterNames()Ljava/util/Enumeration;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getParameterNames()s
+q
+< <(<#
+
+paramNamesjava.util.Enumeration"__id*:
+
+__unknown_file (
+
+%40java.util.Enumeration*
+11:8
+" "(-,
+req%javax.servlet.http.HttpServletRequest:9
+". "(E-
+res&javax.servlet.http.HttpServletResponseB><
+:org.t246osslab.easybuggy.core.servlets.DefaultLoginServletH

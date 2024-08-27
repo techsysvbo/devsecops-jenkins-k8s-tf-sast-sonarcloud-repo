@@ -1,0 +1,619 @@
+
+ïorg.t246osslab.easybuggy.vulnerabilities.ClickJackingServlet#doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Võ
+ê/home/ubuntu/repos/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo/src/main/java/org/t246osslab/easybuggy/vulnerabilities/ClickJackingServlet.java1 1("startingBlock*Ñ
+24DH D(Iåâ
+D6 D(GA
+%20:org.apache.directory.shared.ldap.message.ModifyRequestImpl":org.apache.directory.shared.ldap.message.ModifyRequestImplﬁ
+€
+D2 D(J
+%21"Eorg.apache.directory.shared.ldap.message.ModifyRequestImpl#<init>(I)V*_
+
+__unknown_file (C
+A
+%20:org.apache.directory.shared.ldap.message.ModifyRequestImpl* 
+
+__unknown_file (2*
+23*Ê
+25C C("{
+y
+C0 C(WC
+%18<org.apache.directory.shared.ldap.entry.ModificationOperation"__id*"
+
+__unknown_file (
+""“œ
+C C(X
+%19void"éorg.apache.directory.shared.ldap.entry.client.ClientModification#setOperation(Lorg/apache/directory/shared/ldap/entry/ModificationOperation;)V*t
+
+__unknown_file (X
+V
+clientModification@org.apache.directory.shared.ldap.entry.client.ClientModification*a
+
+__unknown_file (E
+C
+%18<org.apache.directory.shared.ldap.entry.ModificationOperation2LsetOperation(Lorg/apache/directory/shared/ldap/entry/ModificationOperation;)*
+24*√
+26A A(Q“
+œ
+A A(QV
+clientModification@org.apache.directory.shared.ldap.entry.client.ClientModification"__id*e
+
+__unknown_file (I
+G
+%15@org.apache.directory.shared.ldap.entry.client.ClientModification◊‘
+B B(?
+%17void"áorg.apache.directory.shared.ldap.entry.client.ClientModification#setAttribute(Lorg/apache/directory/shared/ldap/entry/EntryAttribute;)V*t
+
+__unknown_file (X
+V
+clientModification@org.apache.directory.shared.ldap.entry.client.ClientModification*t
+
+__unknown_file (X
+V
+entryAttributeDorg.apache.directory.shared.ldap.entry.client.DefaultClientAttribute2EsetAttribute(Lorg/apache/directory/shared/ldap/entry/EntryAttribute;)*
+25*“
+27@ @(w÷
+”
+@ @(wV
+entryAttributeDorg.apache.directory.shared.ldap.entry.client.DefaultClientAttribute"__id*i
+
+__unknown_file (M
+K
+%13Dorg.apache.directory.shared.ldap.entry.client.DefaultClientAttributeòï
+A< A(NG
+%15@org.apache.directory.shared.ldap.entry.client.ClientModification"@org.apache.directory.shared.ldap.entry.client.ClientModification«
+ƒ
+A8 A(P
+%16"Jorg.apache.directory.shared.ldap.entry.client.ClientModification#<init>()V*e
+
+__unknown_file (I
+G
+%15@org.apache.directory.shared.ldap.entry.client.ClientModification*
+26*ã
+28@8 @(v†ù
+@< @(RK
+%13Dorg.apache.directory.shared.ldap.entry.client.DefaultClientAttribute"Dorg.apache.directory.shared.ldap.entry.client.DefaultClientAttribute—
+Œ
+@8 @(v
+%14"sorg.apache.directory.shared.ldap.entry.client.DefaultClientAttribute#<init>(Ljava/lang/String;[Ljava/lang/String;)V*i
+
+__unknown_file (M
+K
+%13Dorg.apache.directory.shared.ldap.entry.client.DefaultClientAttribute*$
+
+__unknown_file (
+mail*5
+
+__unknown_file (
+
+%12java.lang.String*
+27*·
+29@[ @(u «
+@[ @(u
+%12java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForLDAP(Ljava/lang/String;)Ljava/lang/String;*\
+
+__unknown_file (@>
+<org.t246osslab.easybuggy.vulnerabilities.ClickJackingServlet*5
+
+__unknown_file (
+
+%11java.lang.String2!encodeForLDAP(Ljava/lang/String;)*
+28*®
+30@S @(Yëé
+@i @(t
+%11java.lang.String")java.lang.String#trim()Ljava/lang/String;*6
+
+__unknown_file (
+
+mailjava.lang.String2trim()*
+29*ò
+32>* >(4˛
+˚
+>* >(N
+%10boolean"Worg.t246osslab.easybuggy.core.utils.EmailUtils#isValidEmailAddress(Ljava/lang/String;)Z*N
+
+__unknown_file (2"0
+.org.t246osslab.easybuggy.core.utils.EmailUtils*6
+
+__unknown_file (
+
+mailjava.lang.String*
+30
+1*ò
+10M  M(eÅ
+
+M  M(e
+%39java.lang.String"__concat*)
+M  M(;
+<a href=\"/admins/main\">*%
+M> M(e
+
+%38java.lang.Stringl
+j
+M  M(n
+%40java.lang.String"__concat*%
+M  M(e
+
+%39java.lang.String*
+Mh M(n
+</a>êç
+M M(o
+%41java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%40java.lang.String2append(Ljava/lang/String;)*
+9*Ÿ
+33= =(!äá
+=' =(?
+%7java.lang.String"Ojavax.servlet.ServletRequest#getParameter(Ljava/lang/String;)Ljava/lang/String;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest*$
+
+__unknown_file (
+mail2 getParameter(Ljava/lang/String;)
+Ì
+= =(@
+%8java.lang.String"Norg.apache.commons.lang.StringUtils#trim(Ljava/lang/String;)Ljava/lang/String;*C
+
+__unknown_file ('"%
+#org.apache.commons.lang.StringUtils*4
+
+__unknown_file (
+
+%7java.lang.Stringb
+`
+= =(A
+mailjava.lang.String"__id*4
+
+__unknown_file (
+
+%8java.lang.String€
+ÿ
+> >(&
+%9boolean"@org.apache.commons.lang.StringUtils#isBlank(Ljava/lang/String;)Z*C
+
+__unknown_file ('"%
+#org.apache.commons.lang.StringUtils*6
+
+__unknown_file (
+
+mailjava.lang.String*
+32
+1*±
+11M M(öó
+M> M(e
+%38java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*\
+
+__unknown_file (@>
+<org.t246osslab.easybuggy.vulnerabilities.ClickJackingServlet*5
+
+__unknown_file (
+label.goto.admin.page*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+10*ö
+34: :(ıÚ
+: :(!
+
+%6void"Hjavax.servlet.http.HttpServletResponse#sendRedirect(Ljava/lang/String;)V*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponse*!
+
+__unknown_file (
+/2 sendRedirect(Ljava/lang/String;)"
+; ;(
+""*ö
+12L L(ÉÄ
+L L(+
+%37java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*(
+
+__unknown_file (
+
+<br><br>2append(Ljava/lang/String;)*
+11*≤
+358! 8((Ö
+Ç
+8! 8(?
+%4java.lang.Object"__mapGet*,
+
+__unknown_file (
+
+%jsp_context*&
+
+__unknown_file (
+
+useridd
+b
+8 8(@
+useridjava.lang.String"__id*4
+
+__unknown_file (
+
+%4java.lang.Object©
+¶
+9 9(
+%5boolean"	__compare*"
+
+__unknown_file (
+==*8
+
+__unknown_file (
+
+useridjava.lang.String*"
+
+__unknown_file (
+""*
+33
+34*ß
+13K K(Cêç
+K K(C
+%36java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*5
+
+__unknown_file (
+
+%35java.lang.String2append(Ljava/lang/String;)*
+12*ö
+365 5(ıÚ
+5 5(!
+
+%3void"Hjavax.servlet.http.HttpServletResponse#sendRedirect(Ljava/lang/String;)V*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponse*!
+
+__unknown_file (
+/2 sendRedirect(Ljava/lang/String;)"
+6 6(
+""*¨
+14K K(ïí
+K  K(B
+%35java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*\
+
+__unknown_file (@>
+<org.t246osslab.easybuggy.vulnerabilities.ClickJackingServlet*0
+
+__unknown_file (
+msg.mail.changed*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+13*ﬁ
+372 2(∫∑
+2 2('
+%0java.util.Locale":javax.servlet.ServletRequest#getLocale()Ljava/util/Locale;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getLocale()d
+b
+2 2((
+localejava.util.Locale"__id*4
+
+__unknown_file (
+
+%0java.util.Locale·ﬁ
+3 3(.$
+%1javax.servlet.http.HttpSession"Rjavax.servlet.http.HttpServletRequest#getSession()Ljavax/servlet/http/HttpSession;*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest2getSession()Å
+
+3 3(/)
+sessionjavax.servlet.http.HttpSession"__id*B
+
+__unknown_file (&
+$
+%1javax.servlet.http.HttpSession∏
+µ
+4 4(
+%2boolean"	__compare*"
+
+__unknown_file (
+==*G
+
+__unknown_file (+
+)
+sessionjavax.servlet.http.HttpSession*"
+
+__unknown_file (
+""*
+35
+36*è
+15I I(=u
+s
+I I(=#
+bodyHtmljava.lang.StringBuilder"__id*<
+
+__unknown_file ( 
+
+%32java.lang.StringBuilderÅ˛
+J J()
+%34java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*&
+
+__unknown_file (
+
+<form>2append(Ljava/lang/String;)*
+14*—
+16I) I(<EC
+I- I(:
+%32java.lang.StringBuilder"java.lang.StringBuildert
+r
+I) I(<
+%33"!java.lang.StringBuilder#<init>()V*<
+
+__unknown_file ( 
+
+%32java.lang.StringBuilder*
+15*±
+17G5 G(Böó
+G G(C
+%31void"vorg.apache.directory.server.core.CoreSession#modify(Lorg/apache/directory/shared/ldap/message/InternalModifyRequest;)V*Q
+
+__unknown_file (5
+3
+%30,org.apache.directory.server.core.CoreSession*i
+
+__unknown_file (M
+K
+modifyRequest:org.apache.directory.shared.ldap.message.ModifyRequestImpl2Hmodify(Lorg/apache/directory/shared/ldap/message/InternalModifyRequest;)*
+16*ó
+18G G(Ä
+˝
+G G(-3
+%30,org.apache.directory.server.core.CoreSession"morg.t246osslab.easybuggy.core.dao.EmbeddedADS#getAdminSession()Lorg/apache/directory/server/core/CoreSession;*M
+
+__unknown_file (1"/
+-org.t246osslab.easybuggy.core.dao.EmbeddedADS*
+17*ﬂ
+19F F(»≈
+F F(A
+%29void"Çorg.apache.directory.shared.ldap.message.ModifyRequestImpl#addModification(Lorg/apache/directory/shared/ldap/entry/Modification;)V*i
+
+__unknown_file (M
+K
+modifyRequest:org.apache.directory.shared.ldap.message.ModifyRequestImpl*t
+
+__unknown_file (X
+V
+clientModification@org.apache.directory.shared.ldap.entry.client.ClientModification2FaddModification(Lorg/apache/directory/shared/ldap/entry/Modification;)*
+18*&
+0 "
+Y Y(
+implicit return*˜
+1V V(•¢
+V- V(\
+%51java.lang.String"xorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getErrMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*\
+
+__unknown_file (@>
+<org.t246osslab.easybuggy.vulnerabilities.ClickJackingServlet*:
+
+__unknown_file (
+msg.mail.format.is.invalid*8
+
+__unknown_file (
+
+localejava.util.Locale2/getErrMsg(Ljava/lang/String;Ljava/util/Locale;)∑
+¥
+V V(]
+%52void"__mapSet*,
+
+__unknown_file (
+
+%jsp_context*,
+
+__unknown_file (
+errorMessage*5
+
+__unknown_file (
+
+%51java.lang.StringÄ˝
+W W(
+%53void"îorg.t246osslab.easybuggy.vulnerabilities.ClickJackingServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V*\
+
+__unknown_file (@>
+<org.t246osslab.easybuggy.vulnerabilities.ClickJackingServlet*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponse2VdoGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)*
+0*ˆ
+startingBlock1 1(J/-
+1 1(
+%jsp_context"java.util.HashMap†
+ù
+0 0(
+%54"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequestm
+k
+1- 1(0,
+req%javax.servlet.http.HttpServletRequest"__annotation*#
+
+__unknown_file (
+
+%54°
+û
+0 0(
+%55"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponsen
+l
+1F 1(I-
+res&javax.servlet.http.HttpServletResponse"__annotation*#
+
+__unknown_file (
+
+%55*
+37*‹
+6O O(j«ƒ
+O O(j
+%45void"Ωorg.t246osslab.easybuggy.core.servlets.AbstractServlet#responseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)V*\
+
+__unknown_file (@>
+<org.t246osslab.easybuggy.vulnerabilities.ClickJackingServlet*J
+
+__unknown_file (.
+,
+req%javax.servlet.http.HttpServletRequest*K
+
+__unknown_file (/
+-
+res&javax.servlet.http.HttpServletResponse*5
+
+__unknown_file (
+
+%43java.lang.String*5
+
+__unknown_file (
+
+%44java.lang.String2ÖresponseToClient(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)*
+0*¿
+7OV O(^´®
+OV O(i
+%44java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder2
+toString()*
+6*±
+8O O( úô
+O+ O(T
+%43java.lang.String"uorg.t246osslab.easybuggy.core.servlets.AbstractServlet#getMsg(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;*\
+
+__unknown_file (@>
+<org.t246osslab.easybuggy.vulnerabilities.ClickJackingServlet*7
+
+__unknown_file (
+title.clickjacking.page*8
+
+__unknown_file (
+
+localejava.util.Locale2,getMsg(Ljava/lang/String;Ljava/util/Locale;)*
+7*ó
+9N N(Çˇ
+N N(*
+%42java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*A
+
+__unknown_file (%
+#
+bodyHtmljava.lang.StringBuilder*'
+
+__unknown_file (	
+</form>2append(Ljava/lang/String;)*
+8*ù
+20E E(|ÜÉ
+E E(|
+%28void"sorg.apache.directory.shared.ldap.message.ModifyRequestImpl#setName(Lorg/apache/directory/shared/ldap/name/LdapDN;)V*i
+
+__unknown_file (M
+K
+modifyRequest:org.apache.directory.shared.ldap.message.ModifyRequestImpl*Q
+
+__unknown_file (5
+3
+%26,org.apache.directory.shared.ldap.name.LdapDN27setName(Lorg/apache/directory/shared/ldap/name/LdapDN;)*
+19*È
+21E1 E(Vl
+j
+E1 E(V
+%24java.lang.String"__concat*
+E1 E(7
+uid=*%
+E: E(V
+
+%23java.lang.Stringà
+Ö
+E1 E(z
+%25java.lang.String"__concat*%
+E1 E(V
+
+%24java.lang.String*/
+EY E(z#!
+,ou=people,dc=t246osslab,dc=orgom
+E* E(03
+%26,org.apache.directory.shared.ldap.name.LdapDN",org.apache.directory.shared.ldap.name.LdapDNË
+Â
+E& E({
+%27"Horg.apache.directory.shared.ldap.name.LdapDN#<init>(Ljava/lang/String;)V*Q
+
+__unknown_file (5
+3
+%26,org.apache.directory.shared.ldap.name.LdapDN*5
+
+__unknown_file (
+
+%25java.lang.String*
+20*·
+22E: E(V «
+E: E(V
+%23java.lang.String"jorg.t246osslab.easybuggy.core.servlets.AbstractServlet#encodeForLDAP(Ljava/lang/String;)Ljava/lang/String;*\
+
+__unknown_file (@>
+<org.t246osslab.easybuggy.vulnerabilities.ClickJackingServlet*5
+
+__unknown_file (
+
+%22java.lang.String2!encodeForLDAP(Ljava/lang/String;)*
+21*Ó
+23D D(K¡
+æ
+D D(KK
+modifyRequest:org.apache.directory.shared.ldap.message.ModifyRequestImpl"__id*_
+
+__unknown_file (C
+A
+%20:org.apache.directory.shared.ldap.message.ModifyRequestImplìê
+EH E(U
+%22java.lang.String")java.lang.String#trim()Ljava/lang/String;*8
+
+__unknown_file (
+
+useridjava.lang.String2trim()*
+22:8
+1 1(1,
+req%javax.servlet.http.HttpServletRequest:9
+12 1(I-
+res&javax.servlet.http.HttpServletResponseB@>
+<org.t246osslab.easybuggy.vulnerabilities.ClickJackingServlet
